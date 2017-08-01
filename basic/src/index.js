@@ -16,13 +16,13 @@ class Application extends React.Component {
   }
 
   componentDidMount() {
-    const { lng, lat } = this.state;
+    const { lng, lat, zoom } = this.state;
 
     const map = new mapboxgl.Map({
       container: this.refs.map,
       style: 'mapbox://styles/mapbox/streets-v9',
       center: [lng, lat],
-      zoom: 1.5
+      zoom
     });
 
     map.on('move', () => {
