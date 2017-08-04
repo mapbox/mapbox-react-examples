@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import mapboxgl from 'mapbox-gl'
-import data from './data.json';
+import data from './data.json'
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
 
@@ -69,7 +69,7 @@ class Application extends React.Component {
         id: 'countries',
         type: 'fill',
         source: 'countries'
-      }, 'country-label-lg');
+      }, 'country-label-lg'); // ID metches `mapbox/streets-v9`
 
       this.setFill();
     });

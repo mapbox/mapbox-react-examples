@@ -1,0 +1,1 @@
+export const SET_ACTIVE_OPTION = 'SET_ACTIVE_OPTION';
