@@ -62,7 +62,7 @@ class Application extends React.Component {
     this.map.on('load', () => {
       this.map.addSource('countries', {
         type: 'geojson',
-        data: data
+        data
       });
 
       this.map.addLayer({
