@@ -29,7 +29,7 @@ class Application extends React.Component {
     this.tooltipContainer = document.createElement('div');
 
     const map = new mapboxgl.Map({
-      container: this.refs.map,
+      container: this.mapContainer,
       style: 'mapbox://styles/mapbox/streets-v9',
       center: [-79.38, 43.65],
       zoom: 12.5
@@ -49,7 +49,7 @@ class Application extends React.Component {
 
   render() {
     return (
-      <div ref="map" className="absolute top right left bottom" />
+      <div ref={el => this.mapContainer = el} className="absolute top right left bottom" />
     );
   }
 }
