@@ -19,7 +19,7 @@ class Application extends React.Component {
         this.tooltipContainer
       );
     } else {
-      this.tooltipContainer.innerHTML = '';
+      ReactDOM.unmountComponentAtNode(this.tooltipContainer);
     }
   }
 
@@ -38,7 +38,7 @@ class Application extends React.Component {
     const tooltip = new mapboxgl.Marker(this.tooltipContainer, {
       offset: [-120, 0]
     }).setLngLat([0,0]).addTo(map);
-    
+
     map.on('mousemove', (e) => {
       const features = map.queryRenderedFeatures(e.point);
       tooltip.setLngLat(e.lngLat);
