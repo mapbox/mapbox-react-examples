@@ -6,6 +6,7 @@ import { connect } from 'react-redux'
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
 
 let Map = class Map extends React.Component {
+  mapRef = React.createRef();
   map;
 
   static propTypes = {
@@ -19,7 +20,7 @@ let Map = class Map extends React.Component {
 
   componentDidMount() {
     this.map = new mapboxgl.Map({
-      container: this.mapContainer,
+      container: this.mapRef.current,
       style: 'mapbox://styles/mapbox/streets-v9',
       center: [5, 34],
       zoom: 1.5
@@ -51,7 +52,7 @@ let Map = class Map extends React.Component {
 
   render() {
     return (
-      <div ref={el => this.mapContainer = el} className="absolute top right left bottom" />
+      <div ref={this.mapRef} className="absolute top right left bottom" />
     );
   }
 }

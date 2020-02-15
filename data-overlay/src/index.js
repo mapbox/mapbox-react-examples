@@ -38,6 +38,7 @@ const options = [{
 }]
 
 class Application extends React.Component {
+  mapRef = React.createRef();
   map;
 
   constructor(props: Props) {
@@ -53,7 +54,7 @@ class Application extends React.Component {
 
   componentDidMount() {
     this.map = new mapboxgl.Map({
-      container: this.mapContainer,
+      container: this.mapRef.current,
       style: 'mapbox://styles/mapbox/streets-v9',
       center: [5, 34],
       zoom: 1.5
@@ -105,7 +106,7 @@ class Application extends React.Component {
 
     return (
       <div>
-        <div ref={el => this.mapContainer = el} className="absolute top right left bottom" />
+        <div ref={this.mapRef} className="absolute top right left bottom" />
         <div className="toggle-group absolute top left ml12 mt12 border border--2 border--white bg-white shadow-darken10 z1">
           {options.map(renderOptions)}
         </div>
