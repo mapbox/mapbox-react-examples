@@ -6,6 +6,7 @@ import Tooltip from './components/tooltip'
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
 
 class Application extends React.Component {
+  mapRef = React.createRef();
   tooltipContainer;
 
   setTooltip(features) {
@@ -29,7 +30,7 @@ class Application extends React.Component {
     this.tooltipContainer = document.createElement('div');
 
     const map = new mapboxgl.Map({
-      container: this.mapContainer,
+      container: this.mapRef.current,
       style: 'mapbox://styles/mapbox/streets-v9',
       center: [-79.38, 43.65],
       zoom: 12.5
@@ -49,7 +50,7 @@ class Application extends React.Component {
 
   render() {
     return (
-      <div ref={el => this.mapContainer = el} className="absolute top right left bottom" />
+      <div ref={this.mapRef} className="absolute top right left bottom" />
     );
   }
 }
