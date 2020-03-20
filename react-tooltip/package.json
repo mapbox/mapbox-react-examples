@@ -8,9 +8,9 @@
     "react-scripts": "^1.0.10"
   },
   "dependencies": {
-    "mapbox-gl": "^0.39.1",
-    "prop-types": "^15.5.10",
-    "react": "^15.5.0",
-    "react-dom": "^15.5.0"
+    "mapbox-gl": "^1.8.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   }
 }

@@ -8,8 +8,8 @@
     "react-scripts": "^1.0.10"
   },
   "dependencies": {
-    "mapbox-gl": "^0.39.1",
-    "react": "^15.5.0",
-    "react-dom": "^15.5.0"
+    "mapbox-gl": "^1.8.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   }
 }
