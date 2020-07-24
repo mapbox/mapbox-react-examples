@@ -11,7 +11,7 @@ Initialize a map with coordinates set by React, update the state of coordinates 
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/basic_v2
+    cd mapbox-react-examples/basic-with-hooks
     npm install
     npm start
 
@@ -26,7 +26,7 @@ Runs the app from http://localhost:3000
 
 #### The HTML page
 
-Open the `index.html` file in the folder `basic_v2`. This file was created by [Create React App](https://github.com/facebook/create-react-app). The line has been added for our example:
+Open the `index.html` file in the folder `basic-with-hooks`. This file was created by [Create React App](https://github.com/facebook/create-react-app). The line has been added for our example:
 
 __index.html__
 
@@ -42,7 +42,7 @@ This code creates the structure of the HTML page your users will see.
 
 ##### index.js
 
-Open the `index.js` file in the folder `basic_v2/src`. This file was created by [Create React App](https://github.com/facebook/create-react-app).
+Open the `index.js` file in the folder `basic-with-hooks/src`. This file was created by [Create React App](https://github.com/facebook/create-react-app).
 
 index.js
 
@@ -65,7 +65,7 @@ serviceWorker.unregister();
 
 ##### App.js
 
-Open the `App.js` file in the folder `basic_v2/src`. This file was created by [Create React App](https://github.com/facebook/create-react-app), but we changed it.
+Open the `App.js` file in the folder `basic-with-hooks/src`. This file was created by [Create React App](https://github.com/facebook/create-react-app), but we changed it.
 
 __app.js__
 
@@ -86,7 +86,7 @@ export default App;
 
 ##### Map.js
 
-Open the `Map.js` file in the folder `basic_v2/src`. We created this file for this tutorial. So we have a clean project structure. The card is a separate component.
+Open the `Map.js` file in the folder `basic-with-hooks/src`. We created this file for this tutorial. So we have a clean project structure. The card is a separate component.
 
 __Map.js__
 
@@ -235,7 +235,7 @@ export default Map;
 
 ##### Map.css
 
-The map needs a few styling rules to render correctly. Open the `Map.css` file in the folder `basic_v2/src`. We created this file for this tutorial:
+The map needs a few styling rules to render correctly. Open the `Map.css` file in the folder `basic-with-hooks/src`. We created this file for this tutorial:
 
 __Map.css__
 
