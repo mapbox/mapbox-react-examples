@@ -68,7 +68,7 @@ const Map = () => {
         type: "fill",
         source: "countries",
       });
-  
+
       map.setPaintProperty("countries", "fill-color", {
         property,
         stops,
@@ -85,12 +85,11 @@ const Map = () => {
     setActive(options[i]);
     setProperty(options[i].property);
     setStops(options[i].stops);
+
     map.setPaintProperty("countries", "fill-color", {
       property,
       stops,
     });
-    setMap(map);
-
   };
 
   const renderOptions = (option, i) => {
