@@ -8,9 +8,9 @@ mapboxgl.accessToken =
 const Map = () => {
   const mapContainerRef = useRef(null);
 
-  const [lng, setLng] = useState(7.2);
-  const [lat, setLat] = useState(50.3);
-  const [zoom, setZoom] = useState(12.5);
+  const [lng, setLng] = useState(5);
+  const [lat, setLat] = useState(34);
+  const [zoom, setZoom] = useState(1.5);
 
   // Initialize map when component mounts
   useEffect(() => {
