@@ -1,7 +1,8 @@
 import React from "react";
 
 const Tooltip = ({ feature }) => {
-  const { id, name, type } = feature.properties;
+  const { id } = feature.properties;
+  console.log(id);
 
   return (
     <div id={`tooltip-${id}`}>
