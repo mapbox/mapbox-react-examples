@@ -37,7 +37,6 @@ const Map = () => {
       const features = map.queryRenderedFeatures(e.point);
       if (features.length) {
         const feature = features[0];
-        console.log(feature);
 
         // Create tooltip node
         const tooltipNode = document.createElement("div");
