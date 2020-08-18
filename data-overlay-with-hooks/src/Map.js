@@ -45,8 +45,6 @@ const Map = () => {
   ];
   const mapContainerRef = useRef(null);
   const [active, setActive] = useState(options[0]);
-  const [property, setProperty] = useState(options[0].property);
-  const [stops, setStops] = useState(options[0].stops);
   const [map, setMap] = useState(null);
 
   // Initialize map when component mounts
@@ -57,7 +55,6 @@ const Map = () => {
       center: [5, 34],
       zoom: 1.5,
     });
-    console.log(map);
 
     map.on("load", () => {
       map.addSource("countries", {
@@ -65,11 +62,33 @@ const Map = () => {
         data,
       });
 
-      map.addLayer({
-        id: "countries",
-        type: "fill",
-        source: "countries",
-      });
+      map.setLayoutProperty("country-label", "text-field", [
+        "format",
+        ["get", "name_en"],
+        { "font-scale": 1.2 },
+        "\n",
+        {},
+        ["get", "name"],
+        {
+          "font-scale": 0.8,
+          "text-font": [
+            "literal",
+            ["DIN Offc Pro Italic", "Arial Unicode MS Regular"],
+          ],
+        },
+      ]);
+
+      map.addLayer(
+        {
+          id: "countries",
+          type: "fill",
+          source: "countries",
+        },
+        "country-label"
+      );
+
+      const stops = active.stops;
+      const property = active.property;
 
       map.setPaintProperty("countries", "fill-color", {
         property,
@@ -90,29 +109,27 @@ const Map = () => {
   const paint = () => {
     if (map) {
       map.setPaintProperty("countries", "fill-color", {
-        property,
-        stops,
+        property: active.property,
+        stops: active.stops,
       });
     }
   };
 
   const changeState = (i) => {
     setActive(options[i]);
-    setProperty(options[i].property);
-    setStops(options[i].stops);
     map.setPaintProperty("countries", "fill-color", {
-      property,
-      stops,
+      property: active.property,
+      stops: active.stops,
     });
   };
 
   return (
     <div>
       <div ref={mapContainerRef} className="map-container" />
-      <Legend options={options} active={active} stops={stops} />
+      <Legend active={active} stops={active.stops} />
       <Optionsfield
         options={options}
-        property={property}
+        property={active.property}
         changeState={changeState}
       />
     </div>
