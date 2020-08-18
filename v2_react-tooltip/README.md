@@ -11,7 +11,7 @@ Change the data displayed in a tooltip by passing the results of [`queryRendered
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/react-tooltip-with-hooks
+    cd mapbox-react-examples/v2_react-tooltip
     npm install
     npm start
 
@@ -19,3 +19,5 @@ Change the data displayed in a tooltip by passing the results of [`queryRendered
 
 
 Runs the app from http://localhost:3000
+
+For more information see [Use Mapbox GL JS in a React app](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react/)
