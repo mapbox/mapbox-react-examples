@@ -20,7 +20,7 @@ const Legend = (props) => {
           <h2 className="txt-bold txt-s block">{props.active.name}</h2>
           <p className="txt-s color-gray">{props.active.description}</p>
         </div>
-        {props.stops.map(renderLegendKeys)}
+        {props.active.stops.map(renderLegendKeys)}
       </div>
     </>
   );

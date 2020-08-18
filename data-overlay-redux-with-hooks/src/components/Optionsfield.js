@@ -1,12 +1,13 @@
 import React from "react";
+import { connect } from 'react-redux'
 
 const Optionsfield = (props) => {
   const renderOptions = (option, i) => {
     return (
       <label key={i} className="toggle-container">
         <input
-          onChange={() => props.changeState(i)}
-          checked={option.property === props.property}
+          onChange={() => props.changeState(option)}
+          checked={option.property === props.active.property}
           name="toggle"
           type="radio"
         />
@@ -23,4 +24,14 @@ const Optionsfield = (props) => {
   );
 };
 
-export default Optionsfield;
+function mapStateToPropsOptionsfield(state) {
+  return {
+    options: state.options,
+    active: state.active,
+  };
+}
+
+const ConnectedOptionsfield = connect(mapStateToPropsOptionsfield)(Optionsfield);
+
+
+export default ConnectedOptionsfield;

@@ -3,48 +3,31 @@ import mapboxgl from "mapbox-gl";
 import Legend from "./components/Legend";
 import Optionsfield from "./components/Optionsfield";
 import "./Map.css";
-import data from "./data.json";
+import { setActiveOption } from './redux/action-creators';
+import { connect } from "react-redux";
+
+
+const ConnectedLegend = connect(mapStateToPropsLegend)(Legend);
+const ConnectedOptionsfield = connect(mapStateToPropsOptionsfield)(Optionsfield);
+
+function mapStateToPropsLegend(state) {
+  return {
+    active: state.active,
+  };
+}
+
+function mapStateToPropsOptionsfield(state) {
+  return {
+    options: state.options,
+    active: state.active,
+  };
+}
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA";
 
-const Map = () => {
-  const options = [
-    {
-      name: "Population",
-      description: "Estimated total population",
-      property: "pop_est",
-      stops: [
-        [0, "#f8d5cc"],
-        [1000000, "#f4bfb6"],
-        [5000000, "#f1a8a5"],
-        [10000000, "#ee8f9a"],
-        [50000000, "#ec739b"],
-        [100000000, "#dd5ca8"],
-        [250000000, "#c44cc0"],
-        [500000000, "#9f43d7"],
-        [1000000000, "#6e40e6"],
-      ],
-    },
-    {
-      name: "GDP",
-      description: "Estimate total GDP in millions of dollars",
-      property: "gdp_md_est",
-      stops: [
-        [0, "#f8d5cc"],
-        [1000, "#f4bfb6"],
-        [5000, "#f1a8a5"],
-        [10000, "#ee8f9a"],
-        [50000, "#ec739b"],
-        [100000, "#dd5ca8"],
-        [250000, "#c44cc0"],
-        [5000000, "#9f43d7"],
-        [10000000, "#6e40e6"],
-      ],
-    },
-  ];
+const Map = (props) => {
   const mapContainerRef = useRef(null);
-  const [active, setActive] = useState(options[0]);
   const [map, setMap] = useState(null);
 
   // Initialize map when component mounts
@@ -59,7 +42,7 @@ const Map = () => {
     map.on("load", () => {
       map.addSource("countries", {
         type: "geojson",
-        data,
+        data: props.data,
       });
 
       map.setLayoutProperty("country-label", "text-field", [
@@ -88,8 +71,8 @@ const Map = () => {
       );
 
       map.setPaintProperty("countries", "fill-color", {
-        property: active.property,
-        stops: active.stops,
+        property: props.active.property,
+        stops: props.active.stops,
       });
 
       setMap(map);
@@ -101,34 +84,22 @@ const Map = () => {
 
   useEffect(() => {
     paint();
-  }, [active]);
+  }, [props.active]);
 
   const paint = () => {
     if (map) {
       map.setPaintProperty("countries", "fill-color", {
-        property: active.property,
-        stops: active.stops,
+        property: props.active.property,
+        stops: props.active.stops,
       });
     }
-  };
-
-  const changeState = (i) => {
-    setActive(options[i]);
-    map.setPaintProperty("countries", "fill-color", {
-      property: active.property,
-      stops: active.stops,
-    });
   };
 
   return (
     <div>
       <div ref={mapContainerRef} className="map-container" />
-      <Legend active={active} stops={active.stops} />
-      <Optionsfield
-        options={options}
-        property={active.property}
-        changeState={changeState}
-      />
+      <ConnectedLegend />
+      <ConnectedOptionsfield changeState={setActiveOption} />
     </div>
   );
 };
