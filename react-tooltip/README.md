@@ -1,4 +1,4 @@
-React powered tooltip_v2 with Hooks
+React powered tooltip with Hooks
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
