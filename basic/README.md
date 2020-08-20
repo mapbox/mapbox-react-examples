@@ -11,7 +11,7 @@ Initialize a map with coordinates set by React, update the state of coordinates 
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/v2_basic
+    cd mapbox-react-examples/basic
     npm install
     npm start
 

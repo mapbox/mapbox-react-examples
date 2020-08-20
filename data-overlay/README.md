@@ -11,7 +11,7 @@ Add a data overlay to a map via React and use controls to visualize it different
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/v2_data-overlay
+    cd mapbox-react-examples/data-overlay
     npm install
     npm start
 

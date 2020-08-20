@@ -11,7 +11,7 @@ Change the data displayed in a tooltip by passing the results of [`queryRendered
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/v2_react-tooltip
+    cd mapbox-react-examples/react-tooltip
     npm install
     npm start
 
