@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from 'react-redux'
 
 const Optionsfield = (props) => {
   const renderOptions = (option, i) => {
@@ -24,14 +23,4 @@ const Optionsfield = (props) => {
   );
 };
 
-function mapStateToPropsOptionsfield(state) {
-  return {
-    options: state.options,
-    active: state.active,
-  };
-}
-
-const ConnectedOptionsfield = connect(mapStateToPropsOptionsfield)(Optionsfield);
-
-
-export default ConnectedOptionsfield;
+export default Optionsfield;
