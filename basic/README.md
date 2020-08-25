@@ -1,7 +1,5 @@
-Basic example using React Hooks
+Basic example
 ---
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Initialize a map with coordinates set by React, update the state of coordinates on map movement, and display that data in an element provided by the render function.
 
@@ -18,8 +16,6 @@ Initialize a map with coordinates set by React, update the state of coordinates 
     open http://localhost:3000/
 
 Runs the app from http://localhost:3000
-
-For more information see [Use Mapbox GL JS in a React app](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react/) 
 
 
 Documentation
@@ -54,7 +50,7 @@ Open the `index.html` file in the folder `basic-with-hooks`. This file was creat
 
 __index.html__
 
-```
+```html
 ...
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
 ...
@@ -70,7 +66,7 @@ Open the `index.js` file in the folder `basic-with-hooks/src`. This file was cre
 
 index.js
 
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -91,7 +87,7 @@ Open the `App.js` file in the folder `basic-with-hooks/src`. This file was creat
 
 __app.js__
 
-```
+```js
 import React from "react";
 import Map from "./Map";
 function App() {
@@ -110,7 +106,7 @@ Open the `Map.js` file in the folder `basic-with-hooks/src`. We created this fil
 
 __Map.js__
 
-```
+```js
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "./Map.css";
@@ -157,7 +153,7 @@ __Step by Step__
 
 1. We are the first to import everything that is necessary.
 
-```
+```js
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "./Map.css";
@@ -166,7 +162,7 @@ import "./Map.css";
 
 2. Next, set `mapboxgl`'s [`accessToken` property](https://docs.mapbox.com/mapbox-gl-js/api/#accesstoken) to the value of your Mapbox access token. Replace the `MAPBOX_ACCESS_TOKEN` placeholder with your Mapbox access token:
 
-```
+```js
 ...
 mapboxgl.accessToken = "MAPBOX_ACCESS_TOKEN";
 ...
@@ -174,7 +170,7 @@ mapboxgl.accessToken = "MAPBOX_ACCESS_TOKEN";
 
 3. Then we create the function component `Map` and export it.
 
-```
+```js
 ...
 const Map = () => {
 ...
@@ -188,7 +184,7 @@ export default Map;
 
 `useState` stores the original longitude, latitude, and zoom for the map. These values will all change as your user interacts with the map. In a function component, we have no `this`. Instead, we call the [`useState` Hook](https://reactjs.org/docs/hooks-state.html) directly inside our component.
 
-```
+```js
 ...
   const mapContainerRef = useRef(null);
   const [lng, setLng] = useState(7.2);
@@ -198,7 +194,7 @@ export default Map;
 ```
 5. Then we look at how we treat changes in the map --- side effects. [useEffect](https://reactjs.org/docs/hooks-effect.html) lets you perform side effects in function components. These are all the operations that affect your component and can’t be done during rendering. Changing the maps longitude, latitude, or zoom is a change of the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) and this is an example of a side effect.
 
-```
+```js
 ...
   useEffect(() => {
     const map = new mapboxgl.Map({
@@ -222,7 +218,7 @@ export default Map;
 
 6. Now that you are able to collect and store this information, you can use `return` to display it on the map. Inside the opening tag of the `<div>` you created to hold the map, add a new `<div>` that will be used to display the longitude, latitude, and zoom of the map:
 
-```
+```jsx
 ...
   return (
     <div>
@@ -243,7 +239,7 @@ The map needs a few styling rules to render correctly. Open the `Map.css` file i
 
 __Map.css__
 
-```
+```css
 .map-container {
   position: absolute;
   top: 0;

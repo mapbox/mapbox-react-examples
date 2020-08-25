@@ -1,7 +1,4 @@
-Data overlay example using React Hooks
----
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Data overlay example
 
 Add a data overlay to a map via React and use controls to visualize it differently.
 
@@ -20,5 +17,3 @@ Add a data overlay to a map via React and use controls to visualize it different
 Runs the app from http://localhost:3000
 
 Data provided by [Natural Earth](http://www.naturalearthdata.com/).
-
-For more information see [Use Mapbox GL JS in a React app](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react/)

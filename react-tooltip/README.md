@@ -1,7 +1,4 @@
-React powered tooltip with Hooks
----
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React powered tooltip
 
 Change the data displayed in a tooltip by passing the results of [`queryRenderedFeatures`](https://www.mapbox.com/mapbox-gl-js/api/#map#queryrenderedfeatures) as props to a tooltip component.
 
@@ -19,5 +16,3 @@ Change the data displayed in a tooltip by passing the results of [`queryRendered
 
 
 Runs the app from http://localhost:3000
-
-For more information see [Use Mapbox GL JS in a React app](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react/)
