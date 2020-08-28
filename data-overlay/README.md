@@ -1,4 +1,5 @@
 Data overlay example
+---
 
 Add a data overlay to a map via React and use controls to visualize it differently.
 
