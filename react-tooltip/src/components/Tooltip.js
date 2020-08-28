@@ -5,7 +5,6 @@ const Tooltip = ({ feature }) => {
 
   return (
     <div id={`tooltip-${id}`}>
-      <h3>Informations</h3>
       <strong>Source Layer:</strong> {feature.layer["source-layer"]}
       <br />
       <strong>Layer ID:</strong> {feature.layer.id}
