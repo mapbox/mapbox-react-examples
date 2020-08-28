@@ -8,7 +8,7 @@ const Tooltip = ({ feature }) => {
       <h3>Informations</h3>
       <strong>Layer:</strong> {feature.layer["source-layer"]}
       <br />
-      <strong>ID:</strong> {feature.layer.id}
+      <strong>Layer ID:</strong> {feature.layer.id}
     </div>
   );
 };
