@@ -25,7 +25,6 @@ const Map = () => {
   const [lng, setLng] = useState(-87.65);
   const [lat, setLat] = useState(41.84);
   const [zoom, setZoom] = useState(10);
-  const [markerRefs, setMarkerRefs] = useState([]);
 
   // Initialize map when component mounts
   useEffect(() => {
