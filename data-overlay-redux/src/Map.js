@@ -25,7 +25,7 @@ function mapStateToPropsOptionsfield(state) {
 }
 
 mapboxgl.accessToken =
-  Redacted access token
+  '<YOUR_ACCESS_TOKEN>';
 
 const Map = props => {
   const mapContainerRef = useRef(null);
