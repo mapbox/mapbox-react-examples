@@ -1,7 +1,7 @@
-Basic example
----
+## Custom Markers example
 
-Initialize a map with coordinates set by React, update the state of coordinates on map movement, and display that data in an element provided by the render function.
+Initialize a map with custom map markers based on geoJson data which display an alert detail when
+clicked.
 
 ![Demo gif](https://i.imgur.com/IGJuTuM.gif)
 
@@ -9,7 +9,7 @@ Initialize a map with coordinates set by React, update the state of coordinates 
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/basic
+    cd mapbox-react-examples/markers-custom
     npm install
     npm start
 

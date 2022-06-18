@@ -1,5 +1,5 @@
 {
-  "name": "basic",
+  "name": "markers-symbol",
   "version": "0.1.0",
   "dependencies": {
     "mapbox-gl": "^1.11.1",

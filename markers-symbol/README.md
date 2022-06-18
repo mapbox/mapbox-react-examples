@@ -1,15 +1,12 @@
-Basic example
----
+## Symbol Markers example
 
-Initialize a map with coordinates set by React, update the state of coordinates on map movement, and display that data in an element provided by the render function.
-
-![Demo gif](https://i.imgur.com/IGJuTuM.gif)
+Initialize a map with symbol markers based on geoJson data.
 
 ### Run it
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
-    cd mapbox-react-examples/basic
+    cd mapbox-react-examples/markers-symbol
     npm install
     npm start
 
