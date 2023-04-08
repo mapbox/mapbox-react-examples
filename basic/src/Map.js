@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import './Map.css';
 
 mapboxgl.accessToken =
-  'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
+  'pk.eyJ1IjoiY2FzdHRoZWNhbG1pbmdhcHBsZSIsImEiOiJjbGZzZzFxNGcwNWpnM3RwanQ2bjlubGgzIn0.0WiHmOMaGvSo5Ms2TNd4Qw';
 
 const Map = () => {
   const mapContainerRef = useRef(null);
@@ -16,33 +16,119 @@ const Map = () => {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [lng, lat],
-      zoom: zoom
+      // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+      style: 'mapbox://styles/mapbox/dark-v11',
+      center: [-73.09800754761238, 40.853489556812974],
+      zoom: 12
+      });
+    map.on('load', () => {
+      // Add a new source from our GeoJSON data and
+      // set the 'cluster' option to true. GL-JS will
+      // add the point_count property to your source data.
+      map.addSource('kitchens', {
+      type: 'geojson',
+      data: './features.geojson',
+      cluster: true,
+      clusterMaxZoom: 25, // Max zoom to cluster points on
+      clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+      });
+
+      map.addLayer({
+        id: 'clusters',
+        type: 'circle',
+        source: 'kitchens',
+        filter: ['has', 'point_count'],
+        paint: {
+        'circle-color': '#bafc03',
+        'circle-radius': 10,
+        'circle-stroke-width': 3,
+        'circle-stroke-color': '#fff'
+        }
+        });
+        
+        
+         
+        map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'kitchens',
+        filter: ['has', 'point_count'],
+        layout: {
+        'text-field': ['get', 'point_count_abbreviated'],
+        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+        'text-size': 12
+        }
+        });
+         
+        map.addLayer({
+        id: 'unclustered-point',
+        type: 'circle',
+        source: 'kitchens',
+        filter: ['!', ['has', 'point_count']],
+        paint: {
+        'circle-color': '#11b4da',
+        'circle-radius': 4,
+        'circle-stroke-width': 1,
+        'circle-stroke-color': '#fff'
+        }
+        });
+        
+// inspect a cluster on click
+map.on('click', 'clusters', (e) => {
+  const features = 
+    map.queryRenderedFeatures(e.point, {
+      layers: ['clusters']
+  });
+  const clusterId = 
+    features[0].properties.cluster_id;
+  map.getSource('kitchens').getClusterExpansionZoom(
+    clusterId,
+    (err, zoom) => {
+      if (err) return;
+   
+      map.easeTo({
+        center: 
+          features[0].geometry.coordinates,
+        zoom: zoom
+      });
+    }
+  );
+});
+
+// When a click event occurs on a feature in
+// the unclustered-point layer, open a popup at
+// the location of the feature, with
+// description HTML from its properties.
+map.on('click', 'unclustered-point', (e) => {
+  const coordinates = e.features[0].geometry.coordinates.slice();
+  const name = e.features[0].properties.name;
+   
+  // Ensure that if the map is zoomed out such that
+  // multiple copies of the feature are visible, the
+  // popup appears over the copy being pointed to.
+  while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+  coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+  }
+   
+  new mapboxgl.Popup()
+  .setLngLat(coordinates)
+  .setHTML(
+  `Name: ${name}`
+  )
+  .addTo(map);
+  });
+
+  map.on('mouseenter', 'clusters', () => {
+    map.getCanvas().style.cursor = 'pointer';
     });
-
-    // Add navigation control (the +/- zoom buttons)
-    map.addControl(new mapboxgl.NavigationControl(), 'top-right');
-
-    map.on('move', () => {
-      setLng(map.getCenter().lng.toFixed(4));
-      setLat(map.getCenter().lat.toFixed(4));
-      setZoom(map.getZoom().toFixed(2));
+    map.on('mouseleave', 'clusters', () => {
+    map.getCanvas().style.cursor = '';
     });
-
-    // Clean up on unmount
-    return () => map.remove();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  })
+})
 
   return (
-    <div>
-      <div className='sidebarStyle'>
-        <div>
-          Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-        </div>
-      </div>
       <div className='map-container' ref={mapContainerRef} />
-    </div>
   );
 };
 
