@@ -1,25 +1,24 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import './Map.css';
+import geoJson from "./features.geojson"
 
 mapboxgl.accessToken =
-  'pk.eyJ1IjoiY2FzdHRoZWNhbG1pbmdhcHBsZSIsImEiOiJjbGZzZzFxNGcwNWpnM3RwanQ2bjlubGgzIn0.0WiHmOMaGvSo5Ms2TNd4Qw';
+'pk.eyJ1IjoiY2FzdHRoZWNhbG1pbmdhcHBsZSIsImEiOiJjbGZzZzFxNGcwNWpnM3RwanQ2bjlubGgzIn0.0WiHmOMaGvSo5Ms2TNd4Qw';
+
 
 const Map = () => {
   const mapContainerRef = useRef(null);
-
-  const [lng, setLng] = useState(5);
-  const [lat, setLat] = useState(34);
-  const [zoom, setZoom] = useState(1.5);
-
+  
   // Initialize map when component mounts
   useEffect(() => {
     const map = new mapboxgl.Map({
-      container: mapContainerRef.current,
+      container: 'map',
       // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-      style: 'mapbox://styles/mapbox/dark-v11',
+      style: 'mapbox://styles/mapbox/dark-v10',
       center: [-73.09800754761238, 40.853489556812974],
-      zoom: 12
+      zoom: 12,
+      maxZoom: 17.5
       });
     map.on('load', () => {
       // Add a new source from our GeoJSON data and
@@ -27,22 +26,28 @@ const Map = () => {
       // add the point_count property to your source data.
       map.addSource('kitchens', {
       type: 'geojson',
-      data: './features.geojson',
+      data: geoJson,
       cluster: true,
-      clusterMaxZoom: 25, // Max zoom to cluster points on
-      clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+      clusterMaxZoom: 19, // Max zoom to cluster points on
+      clusterRadius: 15 // Radius of each cluster when clustering points (defaults to 50)
       });
 
       map.addLayer({
         id: 'clusters',
         type: 'circle',
         source: 'kitchens',
-        filter: ['has', 'point_count'],
+        filter: ['has', 'point_count'], 
         paint: {
         'circle-color': '#bafc03',
-        'circle-radius': 10,
+        "circle-radius": [
+          "interpolate", ["linear"], ["zoom"],
+          // zoom is 5 (or less) -> circle radius will be 1px
+          8, 15,
+          // zoom is 10 (or greater) -> circle radius will be 5px
+          20, 10
+      ],
         'circle-stroke-width': 3,
-        'circle-stroke-color': '#fff'
+        'circle-stroke-color': '#000'
         }
         });
         
@@ -55,23 +60,22 @@ const Map = () => {
         filter: ['has', 'point_count'],
         layout: {
         'text-field': ['get', 'point_count_abbreviated'],
-        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-        'text-size': 12
+        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold']
         }
         });
          
-        map.addLayer({
-        id: 'unclustered-point',
-        type: 'circle',
-        source: 'kitchens',
-        filter: ['!', ['has', 'point_count']],
-        paint: {
-        'circle-color': '#11b4da',
-        'circle-radius': 4,
-        'circle-stroke-width': 1,
-        'circle-stroke-color': '#fff'
-        }
-        });
+        // map.addLayer({
+        // id: 'unclustered-point',
+        // type: 'circle',
+        // source: 'kitchens',
+        // filter: ['!', ['has', 'point_count']],
+        // paint: {
+        // 'circle-color': '#11b4da',
+        // 'circle-radius': 10,
+        // 'circle-stroke-width': 1,
+        // 'circle-stroke-color': '#fff'
+        // }
+        // });
         
 // inspect a cluster on click
 map.on('click', 'clusters', (e) => {
@@ -93,7 +97,38 @@ map.on('click', 'clusters', (e) => {
       });
     }
   );
-});
+  const point_count = features[0].properties.point_count
+  const coordinates = e.features[0].geometry.coordinates.slice()
+
+  // Get all points under a cluster
+  map.getSource('kitchens').getClusterLeaves(clusterId, point_count, 0, function (err, aFeatures) {
+    var popupString = "";
+    var childrenCount = Object.keys(aFeatures).length
+    const isReal = aFeatures.filter(kitchen => kitchen.properties.is_real === '1')
+    const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
+    const orderedArray = (isReal.length === 1 ? isReal.concat(isGhost) : [])
+    orderedArray.map(kitchen => popupString += `${kitchen.properties.name}<br>`)
+    orderedArray.length > 1 && new mapboxgl.Popup()
+      .setLngLat(coordinates)
+      .setHTML(popupString)
+      .addTo(map);
+  })
+
+  // map.getSource('kitchens').getClusterLeaves(clusterId, point_count, 0)
+  //   .then(res => console.log(res))
+  //   const isReal = aFeatures.filter(kitchen => kitchen.properties.is_real === '1')
+  //   const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
+  //   
+  //   orderedArray.map(property => property.properties.name))
+  // })
+
+  // console.log
+  
+  // new mapboxgl.Popup()
+  //   .setLngLat(features[0].geometry.coordinates)
+  //   .setHTML()
+  //   .addTo(map);
+})
 
 // When a click event occurs on a feature in
 // the unclustered-point layer, open a popup at
@@ -121,14 +156,20 @@ map.on('click', 'unclustered-point', (e) => {
   map.on('mouseenter', 'clusters', () => {
     map.getCanvas().style.cursor = 'pointer';
     });
-    map.on('mouseleave', 'clusters', () => {
+  map.on('mouseleave', 'clusters', () => {
     map.getCanvas().style.cursor = '';
     });
+    map.on('mouseenter', 'unclustered-point', () => {
+      map.getCanvas().style.cursor = 'pointer';
+      });
+    map.on('mouseleave', 'unclustered-point', () => {
+      map.getCanvas().style.cursor = '';
+      });
   })
 })
 
   return (
-      <div className='map-container' ref={mapContainerRef} />
+    <div id="map" className='map-container' ref={mapContainerRef}></div>
   );
 };
 

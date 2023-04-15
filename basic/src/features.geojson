@@ -1,4205 +1,1225 @@
 {
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1532469,
-          "name": "Blue Tortilla",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1581629662/xhqpth0fo3hxw8afwlzr.jpg",
-          "phone_number": 6314510100,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "019c1ec45c6a85d5f0ccfa026ddaceb6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 326209,
-          "name": "Paisano's Pizzeria and Catering",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1459456165/dd577amazjn3nedimdwv.png",
-          "phone_number": 6316764588,
-          "street": "708 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.082489,
-            40.832496
-          ],
-          "type": "Point"
-        },
-        "id": "01f55a33eb44794ac1b216a31e6953cb"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3135899,
-          "name": "Buddy V's Cake Slice",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1626369285/fm6monz7jyoyewjzs5jx.jpg",
-          "phone_number": 8888010253,
-          "street": "45 Middle Ave",
-          "city": "Holtsville",
-          "state": "NY",
-          "zip_code": 11742
-        },
-        "geometry": {
-          "coordinates": [
-            -73.055976,
-            40.818294
-          ],
-          "type": "Point"
-        },
-        "id": "02200e61c6f14001206d4f9b493bd59a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4619168,
-          "name": "Charleys Cheesesteaks",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1639417893/uvpln33fpa9e8pwifs54.jpg",
-          "phone_number": 6312852653,
-          "street": "161 Mall",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.075943,
-            40.868827
-          ],
-          "type": "Point"
-        },
-        "id": "0255f73c49019915502a1c5492bc0dc9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2930682,
-          "name": "Wild Burger",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1624548016/zpg9cak1e1nesqyvv4bx.png",
-          "phone_number": 6317379464,
-          "street": "1986 Middle Country Rd.",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.081756,
-            40.857295
-          ],
-          "type": "Point"
-        },
-        "id": "02daf9696a21749f3191a922c156280f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560451,
-          "name": "American Crepe Company",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612190926/sjimdjryhqsplzm9afyw.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "02e7fdba8b6327e8da2ae2699d100494"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2683152,
-          "name": "Umberto's Pizzeria",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1617282844/apeiionyyqeppbaapv90.png",
-          "phone_number": 6318626777,
-          "street": "111 Alexander Ave",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.133628,
-            40.86639
-          ],
-          "type": "Point"
-        },
-        "id": "031acff0913cf1ddc3fbe16bfff58de0"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2398054,
-          "name": "Voodoo Crab of Centereach",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1602521194/dt4jytzrsspqxpmbhqen.png",
-          "phone_number": 6316767007,
-          "street": "1759 Middle Country Rd Ste G",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.073081,
-            40.860485
-          ],
-          "type": "Point"
-        },
-        "id": "032c313470f4af8e4a85f887ad0d8b98"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1229469,
-          "name": "Salad Creations",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610898369/im11bseluddf8xkpqp4a.jpg",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "05775ab2495569c75168419956528e49"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2291190,
-          "name": "Shah's Halal Food - Holbrook",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1541972966/hzuy47f7rlzhoh9yzqts.png",
-          "phone_number": 6312852821,
-          "street": "975 Main St",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.074111,
-            40.808155
-          ],
-          "type": "Point"
-        },
-        "id": "064bf01fd653e9a6fb81d13991dbabc6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5581528,
-          "name": "Chicken & Things",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1675341386/fj6ay1cwmdpjkoeqpo8w.png",
-          "phone_number": 6316750722,
-          "street": "190 N Belle Mead Rd",
-          "city": "Setauket- East Setauket",
-          "state": "NY",
-          "zip_code": 11733
-        },
-        "geometry": {
-          "coordinates": [
-            -73.089637,
-            40.899799
-          ],
-          "type": "Point"
-        },
-        "id": "073e726a606a2c068b2368e6964204c4"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3028731,
-          "name": "Dickey's Barbecue Pit",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594321909/ykkyocbyshro8nl5quwm.png",
-          "phone_number": 6318078804,
-          "street": "13 Centereach Mall",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.080924,
-            40.859184
-          ],
-          "type": "Point"
-        },
-        "id": "07564a5fc0ffebb4621bcad13b856fa4"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4327456,
-          "name": "Soota 3 Smoke Shop",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1659685038/lvjt2q2drzooovgpqb3u.jpg",
-          "phone_number": 6313463427,
-          "street": "1070 Middle Country Road",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "07921e289124717af2814bfaa207b3eb"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2469676,
-          "name": "Häagen-Dazs (819)",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1649689414/zrfvgspfjrvl5stkbaeo.png",
-          "phone_number": 6319798800,
-          "street": "313 Smith Haven Mall",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.129928,
-            40.864887
-          ],
-          "type": "Point"
-        },
-        "id": "0a1b627a60f0987700282e8f94fdd423"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3184340,
-          "name": "Picchu",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1645205719/mk7mxdv1vfe9b2njltsq.png",
-          "phone_number": 6313200206,
-          "street": "1245 Middle Country Road",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.054267,
-            40.863334
-          ],
-          "type": "Point"
-        },
-        "id": "0a83499821b724bc194b38210a53bcb9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3365445,
-          "name": "Wild Rice",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1656148944/f4aeae4wxsasbulikno0.png",
-          "phone_number": 6316489494,
-          "street": "2801 Middle Country Rd",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.11119,
-            40.860038
-          ],
-          "type": "Point"
-        },
-        "id": "0a86a6541c0460be228eb4663599b99d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3211157,
-          "name": "El Rodeo Taco",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1647975496/sskhrhh3nkx4bgpwrh9o.jpg",
-          "phone_number": 6316156473,
-          "street": "2212 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.089866,
-            40.857868
-          ],
-          "type": "Point"
-        },
-        "id": "0b8b225177edc9a41cdb6d9f3db276bb"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1028526,
-          "name": "Five Guys",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1595347843/zn0xud9gxcfug4yb4m4p.png",
-          "phone_number": 6316662018,
-          "street": "202 Independence Plz",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.05104,
-            40.864131
-          ],
-          "type": "Point"
-        },
-        "id": "0d4c034cbbbd0d32e64c4d8946954884"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1283324,
-          "name": "Phayathai",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1591192337/huczsjqdcrnatvarlkni.png",
-          "phone_number": 6319810303,
-          "street": "735 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.108752,
-            40.835477
-          ],
-          "type": "Point"
-        },
-        "id": "0d9ef39db4eb3c95968a91f582e2dd9f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2133454,
-          "name": "Mooney Pond Market",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1588769711/r6oueagbb5s5t3a7gfwe.jpg",
-          "phone_number": 6314518891,
-          "street": "374 Mooney Pond Rd",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.041862,
-            40.851669
-          ],
-          "type": "Point"
-        },
-        "id": "1362b01ecaa97b57ffb955f93a8111b1"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3296164,
-          "name": "Buzz'd Express Coffee",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1652101830/mhmo3fyzpyhnzjnypwbj.png",
-          "phone_number": 6316980781,
-          "street": "815 Middle Country Road",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.04161,
-            40.865707
-          ],
-          "type": "Point"
-        },
-        "id": "140ceaf8c0860da85703c3c81f303c42"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560450,
-          "name": "Better Bowls",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612179367/fnxioxoq2rj4myaaccsz.png",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "19899cf52bb7455c126701519b6e3c83"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3237186,
-          "name": "Island Bakery & Dessert",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1648075791/asyabwlm7k4lc1c9zzqx.jpg",
-          "phone_number": 6312908735,
-          "street": "2137 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.087173,
-            40.858936
-          ],
-          "type": "Point"
-        },
-        "id": "1a3fe8746ef81719129bee2400b6e83d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3237161,
-          "name": "Portion Kitchen",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1678819448/av8crvlfozqi1klktcho.jpg",
-          "phone_number": 7166662318,
-          "street": "279 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.101776,
-            40.827857
-          ],
-          "type": "Point"
-        },
-        "id": "1bd7bd6566c3e01e89cd45e5c77b8423"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4176664,
-          "name": "Outback Steakhouse",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1658325154/toldg3h9m2u85j9epxiz.jpg",
-          "phone_number": 6315850404,
-          "street": "325 Main St",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.077651,
-            40.811027
-          ],
-          "type": "Point"
-        },
-        "id": "1d62089e68999028c1d18b17c6a7ec38"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4492248,
-          "name": "Bhorpet Foods",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1667420080/k7fmw2oprbjq65muuh1q.png",
-          "phone_number": 6316156705,
-          "street": "975 Main St",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.074424,
-            40.808078
-          ],
-          "type": "Point"
-        },
-        "id": "1dd292ea35e5e6cfe4c8f9035c7bc44b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2612235,
-          "name": "One Stop Deli",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1614112210/blf5l1x0r4mb0ek0jcgv.png",
-          "phone_number": 6317375358,
-          "street": "408 Rosevale Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.131111,
-            40.823616
-          ],
-          "type": "Point"
-        },
-        "id": "1e90e29f73369b9f2cc6f0068b4594fe"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2666822,
-          "name": "Waffle Shack",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616526887/kickdrvmqcimopjgubgp.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "22e350eb450ba763fab0685df0dc3c97"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2415289,
-          "name": "The Big Melt",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1617988495/olno0isas6e7ssc0lwov.jpg",
-          "phone_number": 8886339509,
-          "street": "1070 Middle Country Rd Ste 13",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "233e01efb94152a0d2e2e203f02d5059"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4086224,
-          "name": "Super Mega Dilla",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1638244629/xuci05jbdmazvntn1kws.jpg",
-          "phone_number": 8887193595,
-          "street": "339 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.099319,
-            40.828506
-          ],
-          "type": "Point"
-        },
-        "id": "24212d389410300076f6a6f4cd454c6d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2548091,
-          "name": "Wild Wild Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1586378460/c1ybbdj7rpd7t10yt6cw.png",
-          "phone_number": 8887294870,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "258ce132a3e074cb3784ef52c3fa02b8"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3339637,
-          "name": "Suffolk Wine & Liquors",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1654685050/tzpuuts6x8dtag4rbhi2.png",
-          "phone_number": 6317325566,
-          "street": "733 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.038475,
-            40.866348
-          ],
-          "type": "Point"
-        },
-        "id": "25e206a093df31601c10c6ead2baca46"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3203026,
-          "name": "Poppops Pizzeria",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1646435627/lj0t2ml1wgjvraqp0raq.png",
-          "phone_number": 6316483600,
-          "street": "719 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.1088,
-            40.835588
-          ],
-          "type": "Point"
-        },
-        "id": "263220a86d71bf38cace480345c1a620"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2949547,
-          "name": "Paisapan Bakery Cafe",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1631700558/n9cgavcjcd0jzzdvm8cy.png",
-          "phone_number": 6317323409,
-          "street": "385 Horseblock Road",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.046722,
-            40.83715
-          ],
-          "type": "Point"
-        },
-        "id": "28eaef0820143aaf95197a5b87a5f775"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5506648,
-          "name": "Cake Cup Creamery by Dylan Lemay",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1657634225/cbncyrvhb4anfq6iqtyv.jpg",
-          "phone_number": 8883130284,
-          "street": "721 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "291c63539a38cbf72291f39ecfe1ed5f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 912960,
-          "name": "El Rio Restaurant",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1533761530/uu0cuqduppfbl78uq3lq.jpg",
-          "phone_number": 6314688901,
-          "street": "2133 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.086997,
-            40.858863
-          ],
-          "type": "Point"
-        },
-        "id": "2990f9a38d8f69579cc59b0192246637"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2494375,
-          "name": "Burgerology Stony Brook",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616431734/sqixkr0ps56pt6qg68sq.jpg",
-          "phone_number": 6317624644,
-          "street": "2302B Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.1221,
-            40.87495
-          ],
-          "type": "Point"
-        },
-        "id": "2a15f0ff038d51938f6a48dc0152e74a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2551657,
-          "name": "Winging It",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1611928199/lhchx1s8xdlkxeunvtgf.png",
-          "phone_number": 6316764588,
-          "street": "708B Portion Rd Unit 102",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.082504,
-            40.831687
-          ],
-          "type": "Point"
-        },
-        "id": "2c5c16a8acc8be710682a2c560b15863"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2674518,
-          "name": "Ralph’s famous Italian ices and ice cream",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616683286/c8hvmm7odhtesew6oysa.jpg",
-          "phone_number": 6313649111,
-          "street": "1320 Stony Brook Rd",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.119842,
-            40.876346
-          ],
-          "type": "Point"
-        },
-        "id": "2d582b3b17952e057028ddf6f3c717fd"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2207891,
-          "name": "Chipotle",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1595285513/pcizrfonnwrelygiynw2.png",
-          "phone_number": 6316158493,
-          "street": "601 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.089134,
-            40.832229
-          ],
-          "type": "Point"
-        },
-        "id": "2dfb69aa843ce1aab78426668f3d3a45"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2050598,
-          "name": "Sonic Drive-In",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594072798/qbmmxywwahhk82fvshwt.png",
-          "phone_number": 6313603813,
-          "street": "2900 Middle Country Rd",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.133255,
-            40.861728
-          ],
-          "type": "Point"
-        },
-        "id": "2ea6b5849e15491c86b3ae1d4e274552"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5701720,
-          "name": "Albert's Pizza",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1676965561/r4wlb7jauojevl2pjlb4.png",
-          "phone_number": 6314674674,
-          "street": "601 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.089134,
-            40.832229
-          ],
-          "type": "Point"
-        },
-        "id": "2eb952dc0e06a5f383e695acd4a97b01"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1719178,
-          "name": "Lake Grove Diner",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1592936854/pn3guzbsfgkvumwpvude.png",
-          "phone_number": 6314715370,
-          "street": "2211 Nesconset Hwy",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.12265,
-            40.873275
-          ],
-          "type": "Point"
-        },
-        "id": "2ee5ab1bcc419183f567ccfb93e8e21d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2421884,
-          "name": "Michael Anthony's Pizzeria & Restaurant",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1604151604/cn6jworlo5qlmak0ipeu.jpg",
-          "phone_number": 6312857722,
-          "street": "2425 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.097106,
-            40.858451
-          ],
-          "type": "Point"
-        },
-        "id": "30460cde1c0dfd92c84803b847423eda"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3252233,
-          "name": "Papa Johns",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1640708602/txsxrnipbvauezr79bxm.png",
-          "phone_number": 6316967272,
-          "street": "1310 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.058013,
-            40.861507
-          ],
-          "type": "Point"
-        },
-        "id": "3090052ba6df5ea12c660d9fbff5b8a7"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2626179,
-          "name": "The Halal Hut",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1614868108/wlnl5dh2lerfywnxlp41.jpg",
-          "phone_number": 6318466522,
-          "street": "1327 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.061164,
-            40.862125
-          ],
-          "type": "Point"
-        },
-        "id": "33e93c836621ad9000160ef116444463"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2647757,
-          "name": "Slices & Ices",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1615670822/dypadloexsv9lqbzof7g.jpg",
-          "phone_number": 6312852920,
-          "street": "27 Railroad Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.109802,
-            40.808563
-          ],
-          "type": "Point"
-        },
-        "id": "34f22d01df8d9fd7adeb61e49f4db4b4"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1198582,
-          "name": "Villa Grazia",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1557849717/xgkgs08xepsveulgjake.jpg",
-          "phone_number": 6317323372,
-          "street": "1665 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.070182,
-            40.860855
-          ],
-          "type": "Point"
-        },
-        "id": "3776d104269cd106e78d6bfc1c091084"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1959464,
-          "name": "Carvel",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1666275193/cxa49jiv9kho8bavkipo.jpg",
-          "phone_number": 6316987752,
-          "street": "400 Horseblock Rd Ste A",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.046534,
-            40.835211
-          ],
-          "type": "Point"
-        },
-        "id": "378206b889a5b4c8de7f2ee36eab078a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3097623,
-          "name": "Americana Burgers and Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1639654294/c1rsfffh59cgnfiwaph2.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "38071c87795ad98a980266b27b33f762"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2884167,
-          "name": "Moe’s Southwest Grill # 102801",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1628272819/uxcyinrl0ylv4csxeto9.jpg",
-          "phone_number": 6316765540,
-          "street": "243 Centereach Mall",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.082611,
-            40.860725
-          ],
-          "type": "Point"
-        },
-        "id": "380813581e376519d6e3ed76578e452d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 952414,
-          "name": "Buffalo Wild Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594068159/n1yln7xbloi7fvdtakyv.png",
-          "phone_number": 6317379464,
-          "street": "1986 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.081756,
-            40.857295
-          ],
-          "type": "Point"
-        },
-        "id": "38b9dc6b1fbf4316a504e59d2fbfc35e"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1137240,
-          "name": "Goomba Johnny's Pizzeria",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1552937201/esqt6lwhdvknn1lsrl1k.png",
-          "phone_number": 6317360722,
-          "street": "374 Mooney Pond Rd",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.041862,
-            40.851669
-          ],
-          "type": "Point"
-        },
-        "id": "3a90dcdab1737af8eb51ebcb57dd9163"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2540535,
-          "name": "Right Coast Taqueria",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1537282308/wzhxnbyytakpquusxuie.jpg",
-          "phone_number": 6319338226,
-          "street": "101 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.107421,
-            40.812767
-          ],
-          "type": "Point"
-        },
-        "id": "3ab8a2995f11571b818125ee5ac8ab1b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1674326,
-          "name": "Wendy's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1574870004/un8zbyvnajrk67741xfy.png",
-          "phone_number": 6314674345,
-          "street": "2278 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.09114,
-            40.857841
-          ],
-          "type": "Point"
-        },
-        "id": "3c2da5ff43fe360388418a8a7f4109a1"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5013032,
-          "name": "Wingstop",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1487094164/srsv05ybpqpskfukzlm9.png",
-          "phone_number": 6316765705,
-          "street": "1759 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.073081,
-            40.860485
-          ],
-          "type": "Point"
-        },
-        "id": "3cc4b905859c2773027d4fe60a47c886"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2415437,
-          "name": "Grilled Cheese Society",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1613756247/aqjqenaly8rilhhlk9ci.jpg",
-          "phone_number": 8884228951,
-          "street": "1070 Middle Country Rd Ste 13",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "3d4f03817d8a3c7eff9c43722ecb49b3"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560449,
-          "name": "Better Bowls",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612179367/fnxioxoq2rj4myaaccsz.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "3d8a2efe0edea9d112314059bac3d000"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2751594,
-          "name": "Crazy Bowls (Acai Bowls & More)",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1620722340/h0zzkvwd1zgfobtrf7v8.png",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "3e087bac0e801328bd541e3406650fe3"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5326040,
-          "name": "Checkers",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594765611/rghsuynmrjzax49wajsk.png",
-          "phone_number": 6312852541,
-          "street": "258 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.101821,
-            40.827201
-          ],
-          "type": "Point"
-        },
-        "id": "3e31d893bba8b270489f6be1732b396d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3303512,
-          "name": "Swirls and Twirls",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1652275557/nb79beqg2u0ax6kcoas1.png",
-          "phone_number": 6316566519,
-          "street": "248 Smithtown Blvd #4",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.147773,
-            40.83282
-          ],
-          "type": "Point"
-        },
-        "id": "4024d9da9b9b0404ef5d184b287f4d81"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3160558,
-          "name": "Taco Express Plus",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1643936038/qxusb9n3h2b0wstejd1x.png",
-          "phone_number": 6313200766,
-          "street": "1236 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.056045,
-            40.861545
-          ],
-          "type": "Point"
-        },
-        "id": "404d3f0bf5bb9b057eb27bc362698c41"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4254160,
-          "name": "Akropolis Greek Restaurant",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1659034010/z1aipocfbkro4axgobnr.jpg",
-          "phone_number": 6319790924,
-          "street": "127 Smithtown BlvdSte 16",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.159393,
-            40.838504
-          ],
-          "type": "Point"
-        },
-        "id": "41999bc1856254fecf8d6071d81edf31"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2351192,
-          "name": "Rotisserie Roast",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593720946/mms8o3ijvidse2qcursc.png",
-          "phone_number": 6314714800,
-          "street": "605 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.086982,
-            40.831865
-          ],
-          "type": "Point"
-        },
-        "id": "4399bebb57ed04137ec77fd55082b161"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3224528,
-          "name": "Cinnabon",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1648827140/zquicj3sklfzjfpwpxzv.png",
-          "phone_number": 6318498570,
-          "street": "313 Smith Haven Mall",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.129928,
-            40.864887
-          ],
-          "type": "Point"
-        },
-        "id": "44e17884d403c48d2bad507f967c59f6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 298594,
-          "name": "Sapore Fino Pizzeria",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1462811072/cyrhemyk2a0jmabdijdp.png",
-          "phone_number": 6317326000,
-          "street": "400 Horse Black Rd",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.046738,
-            40.83559
-          ],
-          "type": "Point"
-        },
-        "id": "4525971e4d59bb2432b910a2f1483214"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5077752,
-          "name": "Lotusgarden",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1667992574/wuyfblwolyzxcobz363r.png",
-          "phone_number": 6316981600,
-          "street": "1100 Portion Rd",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.062248,
-            40.834686
-          ],
-          "type": "Point"
-        },
-        "id": "45910e59b2d15526b4b0013365bf598d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1230883,
-          "name": "Burger Heaven",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1614938528/xnqt9a81kxmoo9s3zxib.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "45978bc7291749dd7dfce51900a3e0a0"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4437032,
-          "name": "Rite Aid",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1652718040/rmsybats7zxgz9vujxrz.png",
-          "phone_number": 1712142564,
-          "street": "139 Ronkonkoma Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.110473,
-            40.824691
-          ],
-          "type": "Point"
-        },
-        "id": "47cc8170efd3798657fb604439f84184"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2738640,
-          "name": "L.I. Wings N things",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1620207556/okfyfulzqrmgxteu2nm6.jpg",
-          "phone_number": 6319819464,
-          "street": "270 Pond Path",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.101966,
-            40.885311
-          ],
-          "type": "Point"
-        },
-        "id": "4aab9498f3c7fe0588683195fadd0b93"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2519969,
-          "name": "Wing Wah",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612119838/djkwlzjgkthdofrqejcd.png",
-          "phone_number": 6315882943,
-          "street": "1970 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.081451,
-            40.857345
-          ],
-          "type": "Point"
-        },
-        "id": "4b348cbe1b15a8d5fadf32c62e51860f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1027880,
-          "name": "Old City Public House (Home of the French Dip)",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1555612816/t3uyec8jkorf5f2cizvr.jpg",
-          "phone_number": 6315881135,
-          "street": "200 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.105476,
-            40.826454
-          ],
-          "type": "Point"
-        },
-        "id": "4c1b5840dfe6b7e15a7261f92582de87"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2674530,
-          "name": "Kumo Sushi & Steakhouse",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616704408/zfowofiybc8mbgjyj35r.png",
-          "phone_number": 6316898585,
-          "street": "2548 Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.117301,
-            40.877464
-          ],
-          "type": "Point"
-        },
-        "id": "4cdde661d11763880415d98d8437617b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3323940,
-          "name": "Chili's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1643742399/stpxadd9vztx0wkvid1c.jpg",
-          "phone_number": 6315802842,
-          "street": "280 Pond Path",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.103012,
-            40.884147
-          ],
-          "type": "Point"
-        },
-        "id": "4d4f48dc558ba0108d6902e4c8cbc7bc"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1084704,
-          "name": "Empanadas & More",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1548378942/fc1ojh7q6xrtd2syyqpi.jpg",
-          "phone_number": 6316568270,
-          "street": "155 Smithtown Blvd",
-          "city": "Smithtown",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.157547,
-            40.837036
-          ],
-          "type": "Point"
-        },
-        "id": "4f318bfab322a6202d9984d78e91ab4b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560237,
-          "name": "Long Island Coffee Company",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612194995/bz4kgbztulkhfm4iadyj.png",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "5009bd9bf5ec82f747759283a6525a9f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3191094,
-          "name": "Chicos Tex Mex",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1645715903/apbfkvxtcfqpucjump3u.jpg",
-          "phone_number": 6313203338,
-          "street": "656 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.035903,
-            40.865459
-          ],
-          "type": "Point"
-        },
-        "id": "523b7d82620c8eba8688ad8f056b29e0"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5506656,
-          "name": "HuevoRito",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612969260/u236slofq9fhh2nrso6r.jpg",
-          "phone_number": 8444851466,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "540dde978d902401e6dd5d0702159daa"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1408760,
-          "name": "SwolehouseMeals.com",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593071726/jwsfzbjpklyyees9qywy.png",
-          "phone_number": 6316152062,
-          "street": "1759 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.073081,
-            40.860485
-          ],
-          "type": "Point"
-        },
-        "id": "57a3b9ae95da7958eb9ac6ff7b5a81e7"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2626580,
-          "name": "Selden Restaurant Pizza & Gyros",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1614785360/aoac5hquwsehwlgg5sml.png",
-          "phone_number": 6317322743,
-          "street": "35 College Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.048149,
-            40.866024
-          ],
-          "type": "Point"
-        },
-        "id": "580c8863e38ba3cdf9dcb5fdf688645c"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3123805,
-          "name": "Toxic Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1641540602/feigvgstt6ab0hrbn8wh.png",
-          "phone_number": 6313606600,
-          "street": "600 Middle Country Rd",
-          "city": "Saint James",
-          "state": "NY",
-          "zip_code": 11780
-        },
-        "geometry": {
-          "coordinates": [
-            -73.158447,
-            40.859878
-          ],
-          "type": "Point"
-        },
-        "id": "61c66459a7a0b77c3672fe642471f313"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4043688,
-          "name": "O Sole Mio",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1657101293/c9hqxfatww8syvfda7rn.png",
-          "phone_number": 6317511600,
-          "street": "2194 Nesconset Hwy",
-          "city": "stony brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.126434,
-            40.874229
-          ],
-          "type": "Point"
-        },
-        "id": "623e84f244f00b8c770d026119d8e010"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 429630,
-          "name": "Istanbul Cafe",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1496430448/vxqze1k08cb3utpaqwln.png",
-          "phone_number": 6317386704,
-          "street": "2139 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.087539,
-            40.858936
-          ],
-          "type": "Point"
-        },
-        "id": "63384e1cae2a59a38b5e9193c8b9ed40"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1408807,
-          "name": "SUBWAY®",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1502991819/aqrepgbnapm7fcqeslqi.png",
-          "phone_number": 6319811504,
-          "street": "1974 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.08155,
-            40.85736
-          ],
-          "type": "Point"
-        },
-        "id": "640d76641517d4148440adf441d1bbf2"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1059740,
-          "name": "White Castle",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594059746/dr67obcudjix1srrxn0k.png",
-          "phone_number": 6314673147,
-          "street": "2201 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.089202,
-            40.858512
-          ],
-          "type": "Point"
-        },
-        "id": "64df28e853506e948d3bfe101f8924e6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4511048,
-          "name": "Jasvale Mart",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593533002/ma9finrnygbmr4u6mowg.png",
-          "phone_number": 6319816510,
-          "street": "402 Rosevale Avenue",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.130653,
-            40.823314
-          ],
-          "type": "Point"
-        },
-        "id": "6666b704fb2f8e355c763e0bd3670df6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5276080,
-          "name": "Friendly's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594323914/ov3fv2jkdnasoekldsni.png",
-          "phone_number": 6319816659,
-          "street": "553 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.107505,
-            40.828296
-          ],
-          "type": "Point"
-        },
-        "id": "66cbceb8dae4701c77b25ef18f46c107"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3173114,
-          "name": "China Wok II",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1644603691/aenzu1pnqk2sagjftk4i.png",
-          "phone_number": 6314682996,
-          "street": "725 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "68eae2eb14e48725e7586a44eb46b4b6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560773,
-          "name": "American Crepe Company",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612190926/sjimdjryhqsplzm9afyw.png",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "6c2e1c805da6cb5aed1465f8bf7a4919"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3368478,
-          "name": "Thrilled Cheese",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1672930027/nmzc3fo0rh0ok2l0necj.jpg",
-          "phone_number": 8886713561,
-          "street": "339 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.099319,
-            40.828506
-          ],
-          "type": "Point"
-        },
-        "id": "6c6dd632980052cdff1fa1253c84cf57"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1718718,
-          "name": "BLD's Restaurant",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1578946413/jhew1aluzwdsmcvkpvyc.jpg",
-          "phone_number": 6319812811,
-          "street": "299 Hawkins Avenue STE 2",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.106788,
-            40.819637
-          ],
-          "type": "Point"
-        },
-        "id": "6d2cb2a5dfeba7f4fbf8ef1159578b29"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2538832,
-          "name": "Boxcar Burgers",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1611188440/ayplineiuo1duu8ixpfl.jpg",
-          "phone_number": 6316152717,
-          "street": "90 Railroad Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10633,
-            40.808341
-          ],
-          "type": "Point"
-        },
-        "id": "6ebaa088642fa123056edf271ede7365"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3123716,
-          "name": "Lorenzo’s pizza",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1641547402/n08mctzwzwi8s5yhmhmz.png",
-          "phone_number": 6313606600,
-          "street": "600 Middle Country Rd",
-          "city": "Saint James",
-          "state": "NY",
-          "zip_code": 11780
-        },
-        "geometry": {
-          "coordinates": [
-            -73.158447,
-            40.859878
-          ],
-          "type": "Point"
-        },
-        "id": "6fbdd3ad8030ab503ecf8d1e5e040cbc"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4315816,
-          "name": "Smoke Zone 723",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1659601257/iordm3v2boivfsvenhto.jpg",
-          "phone_number": 6316764711,
-          "street": "723 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.108553,
-            40.835001
-          ],
-          "type": "Point"
-        },
-        "id": "73389e76cac594cbcb2dcfef16e37436"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2415635,
-          "name": "CraveBurger",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1621396305/v8btgxvyvbyiyvkaxato.jpg",
-          "phone_number": 8882595475,
-          "street": "1070 Middle Country Rd Ste 13",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "776be0ea1de371d5c62c335b3474bb80"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 986101,
-          "name": "Cold Stone Creamery",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1510584274/fxtdbzf999vmp2d4ua3n.jpg",
-          "phone_number": 6314519301,
-          "street": "1315 Middle Country Rd  Ste 5",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.060218,
-            40.862426
-          ],
-          "type": "Point"
-        },
-        "id": "784e541b030aa468b47070760a0ce135"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3328306,
-          "name": "It's Just Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1643742484/gze0xhwjt4kgqgdifdtd.jpg",
-          "phone_number": 6315802842,
-          "street": "280 Pond Path",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.103012,
-            40.884147
-          ],
-          "type": "Point"
-        },
-        "id": "7884c6e393d937fcf23d38f577ef0074"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3076802,
-          "name": "Wing Shack",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1638533502/j0cpy4m53yaloxiqourt.jpg",
-          "phone_number": 6313200903,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "79cc8b249c94edfb9e4df8fb14826947"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2041219,
-          "name": "Cabo Fresh Mexican Grill",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1584979127/xs71w1so4szuy25cemep.jpg",
-          "phone_number": 6317512226,
-          "street": "2182 Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.126142,
-            40.87345
-          ],
-          "type": "Point"
-        },
-        "id": "79ce98b8f8f890dd87833ccfd158dfe9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 304360,
-          "name": "La Fonda Latino Grill",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1509729403/xcert21qa4avu9fbd0dj.png",
-          "phone_number": 6314673278,
-          "street": "426 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10752,
-            40.82458
-          ],
-          "type": "Point"
-        },
-        "id": "7ab3bf5aad5f76b24197d48acce83087"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2366590,
-          "name": "No. 1 Chinese Restaurant",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1600955270/b6wwqajmptrnviu2nhtw.png",
-          "phone_number": 6315888868,
-          "street": "2361 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.095291,
-            40.858505
-          ],
-          "type": "Point"
-        },
-        "id": "7b69b006bfa0f28f29a026dba312ad00"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 314874,
-          "name": "Island Lake Diner",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610644884/ua1tx2jn6adqvbhiygtg.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085928,
-            40.832056
-          ],
-          "type": "Point"
-        },
-        "id": "7b8aecff65de070c6d55427b96124fd7"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5618624,
-          "name": "Caffe Amici",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1676034611/k1us7jre0jut9infa6go.png",
-          "phone_number": 6316980818,
-          "street": "353 Independence Plaza",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.052101,
-            40.866039
-          ],
-          "type": "Point"
-        },
-        "id": "7bbdbfd0cd2fd77a18a5b835cbc8427b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5769152,
-          "name": "Spicy Home Tasty 2",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1600340441/cay5p07iqmboogd4upyn.png",
-          "phone_number": 6316986550,
-          "street": "1260 Waverly Ave",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.04837,
-            40.836265
-          ],
-          "type": "Point"
-        },
-        "id": "7bc73dbb4ebeb054b1da646fb7e9dbb8"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2746770,
-          "name": "Crazy Bowls (Acai Bowls & More)",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1620722340/h0zzkvwd1zgfobtrf7v8.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "7e6af391a45e117a96011aef5a3fc9da"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2630427,
-          "name": "Voulapitta Greek Restaurant-",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1614685317/idnr70xjtrk1z7sn93wz.png",
-          "phone_number": 6319810049,
-          "street": "199 Centereach Mall",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.082794,
-            40.861927
-          ],
-          "type": "Point"
-        },
-        "id": "7e8f3a9baf26661fbe3565bce6660476"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 320739,
-          "name": "The Greek Islands Restaurant",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1453224430/fkwsavjj5pm6ac7vsezz.png",
-          "phone_number": 6314676066,
-          "street": "315 Main St Ste A",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.078175,
-            40.811491
-          ],
-          "type": "Point"
-        },
-        "id": "7ed7162810dd078b8104806168c9b939"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2041043,
-          "name": "Cabo Fresh Mexican Grill",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1584979127/xs71w1so4szuy25cemep.jpg",
-          "phone_number": 6315802226,
-          "street": "1759 Middle Country Rd Unit M",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.073081,
-            40.860485
-          ],
-          "type": "Point"
-        },
-        "id": "800f93528ee575c7112d77eb17e4a7e4"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3224504,
-          "name": "Cork & Cap Wine and Spirits",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1647482227/wzonztmczxx6txnbdoms.png",
-          "phone_number": 6318466335,
-          "street": "372 Mooney Pond Rd",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.041404,
-            40.851753
-          ],
-          "type": "Point"
-        },
-        "id": "807528411480935391b9d19255013ddc"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2310913,
-          "name": "QuickChek",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1678374527/q9g7ov0weftbqmdalmi4.png",
-          "phone_number": 6317371484,
-          "street": "2686 Middle Country Rd",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.107528,
-            40.858253
-          ],
-          "type": "Point"
-        },
-        "id": "8099e26e3dc8552425a575b15d1602f6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5275448,
-          "name": "Cheeky Chicken & Sandwiches",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1672167794/vrm4tmxuxnvsoj3b5jdb.jpg",
-          "phone_number": 6318466522,
-          "street": "1327 Middle Country Road",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.061164,
-            40.862125
-          ],
-          "type": "Point"
-        },
-        "id": "82be551d812ad05ea7c67730dcc1c046"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1292085,
-          "name": "Smokey Bones (Alcohol Delivery Available)",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1606749528/ijxajvyjjd1elqyaxeu9.jpg",
-          "phone_number": 6315802675,
-          "street": "5012 Express Dr S",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.100639,
-            40.813003
-          ],
-          "type": "Point"
-        },
-        "id": "83226ee9d8804f701f482287b4205ba3"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1690658,
-          "name": "Munchies To Your Door",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610628952/golcvnzlhxhn1wcjtxnd.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "8343d8534e44429cd8aa882d7275744b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3268610,
-          "name": "Golden Chicken II Peruvian",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1649970215/u4sttqxgvq3hkqgl1rut.png",
-          "phone_number": 6316762000,
-          "street": "310 Main St",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.079727,
-            40.810916
-          ],
-          "type": "Point"
-        },
-        "id": "84a8dbee032a6b06f35943577df1b930"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3317425,
-          "name": "Ruth's Chris",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1565611931/ercocv2xc3dtrgbxikpv.jpg",
-          "phone_number": 6319734230,
-          "street": "472 Smith Haven Mall",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.131523,
-            40.86417
-          ],
-          "type": "Point"
-        },
-        "id": "858ead88beab7f502d00b87509ffcf47"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560453,
-          "name": "Wrapped Up Cafe",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612018590/ro39i4g6dxaevmw8bgpz.jpg",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "85d966c6cfff6f1aa088aff6fbb39508"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5731200,
-          "name": "TenderFix by Noah Schnapp",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1677096058/gafstvl19twdzobipuvu.jpg",
-          "phone_number": 8884077961,
-          "street": "339 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.099258,
-            40.828506
-          ],
-          "type": "Point"
-        },
-        "id": "85debb133b261ed57b584f0799756335"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2746880,
-          "name": "The Monster Crab",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1620671403/xafhsflcwlg2ifya0qb8.png",
-          "phone_number": 6318469729,
-          "street": "173 Morris Ave",
-          "city": "Holtsville",
-          "state": "NY",
-          "zip_code": 11742
-        },
-        "geometry": {
-          "coordinates": [
-            -73.058464,
-            40.818206
-          ],
-          "type": "Point"
-        },
-        "id": "85e4c12185d79163ff845753c3929d8a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1193976,
-          "name": "Shake Shack",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1609805144/npp3at7u5pmstkogyelq.png",
-          "phone_number": 6318237596,
-          "street": "2093 Smith Haven Plz",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.128547,
-            40.869861
-          ],
-          "type": "Point"
-        },
-        "id": "87146a7b2204610dc11ba23f387dbba4"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1729598,
-          "name": "Irish Times Pub",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1615922609/rzr4tnm7cmledajrvxrd.png",
-          "phone_number": 6314674330,
-          "street": "975 Main Street",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.074111,
-            40.808155
-          ],
-          "type": "Point"
-        },
-        "id": "897f7364fba8b7f19b456c9d70224602"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3136384,
-          "name": "Grubhub Goods",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1646412959/cqbiu8w131tfnycucg85.png",
-          "phone_number": 8557117669,
-          "street": "2209 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.08982,
-            40.858737
-          ],
-          "type": "Point"
-        },
-        "id": "8bc274d40981c2433fc29f487db664da"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3016760,
-          "name": "Cheezon",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1634655880/xsysabwpuiuueldohuyn.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Road",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "8c78cf766a6178181c55303a5d4408bc"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5894016,
-          "name": "Hawkins Wine & Liquor",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1679392277/hwghb58xtqaxkmlmptly.png",
-          "phone_number": 6312853555,
-          "street": "727 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.108704,
-            40.835366
-          ],
-          "type": "Point"
-        },
-        "id": "8cf54d684f7fac22a841d07b29eb5cd7"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3135425,
-          "name": "MrBeast Burger",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1606857888/aoenmahhfeia03db9tvd.png",
-          "phone_number": 8772327898,
-          "street": "201 Hallock Rd",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.123298,
-            40.874141
-          ],
-          "type": "Point"
-        },
-        "id": "8d03ae8d96566365b30fc37b472a2d26"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2405226,
-          "name": "Momo's Sports Bar and Grill",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1603292615/lzrpy73gq7sdmqkkwjam.png",
-          "phone_number": 6316489669,
-          "street": "350 Union Ave",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.080675,
-            40.810963
-          ],
-          "type": "Point"
-        },
-        "id": "8ddbef26ea2599748dae4764560a1b01"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2397826,
-          "name": "Boom Boom Soups Salads & Sandwiches",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610660949/bnempnqaarkc2rzkchj0.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "8fd8649a28c0005ec005ffafe277b280"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2250509,
-          "name": "Kim's Cafe",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593593207/qz8bhxan3juwxthnjmrf.webp",
-          "phone_number": 6318468898,
-          "street": "810 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.041061,
-            40.8652
-          ],
-          "type": "Point"
-        },
-        "id": "90bbff20271f0463a1ba8c2b76486c04"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2415761,
-          "name": "Outlaw Burger",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1617485842/sdgfi0015wc53t2q99ml.jpg",
-          "phone_number": 8885480599,
-          "street": "1070 Middle Country Rd Ste 13",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "9151eaee1606e176d5aa2daf14772db2"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2875759,
-          "name": "Kira sushi",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1628756256/a7x3eenbderdpdv6v5xz.png",
-          "phone_number": 6315888885,
-          "street": "846 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.077659,
-            40.833183
-          ],
-          "type": "Point"
-        },
-        "id": "940cfb9ed0e7a2a8ed70e5ca98cddd95"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1021822,
-          "name": "Applebee's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1601058710/woxpyea9ea2gizltya9v.png",
-          "phone_number": 6314672445,
-          "street": "3145 Middle Country Rd",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.1221,
-            40.862129
-          ],
-          "type": "Point"
-        },
-        "id": "94676f0b9754c1891ea9214055f7eb46"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560861,
-          "name": "Long Island Coffee Company",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612194995/bz4kgbztulkhfm4iadyj.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "961c2b983cee9aa4f91eba8dff5c482f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3001933,
-          "name": "Senor Taco Mexican Grill",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1633505483/diqr5w7nu521hhstvqfw.png",
-          "phone_number": 6316764011,
-          "street": "295 Smithtown Blvd",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.133938,
-            40.831977
-          ],
-          "type": "Point"
-        },
-        "id": "963a6dffd16647d135032c0a38a083ce"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 276827,
-          "name": "Crazy Crepe Cafe",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1452379381/pks1mzlhwddmi7yxyedz.jpg",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "96ef6790fd96f5fea7a66cd00201fe2f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 315849,
-          "name": "China Garden",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1452482016/kr93tiz2u9as5flhlfcx.png",
-          "phone_number": 6317326925,
-          "street": "1021 Portion Rd Ste 14",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.067872,
-            40.836021
-          ],
-          "type": "Point"
-        },
-        "id": "96f3da12fb481467063c3435b366875a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2298792,
-          "name": "Carlo's Gourmet Italian Ices",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1596547148/z6wbilcfwuzmcjirny6j.jpg",
-          "phone_number": 6314047021,
-          "street": "27 Railroad Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.109802,
-            40.808563
-          ],
-          "type": "Point"
-        },
-        "id": "979626f7df75f46a3e9c2cc9dc8685d0"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5557280,
-          "name": "Mangiamo Market",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1674930611/bttvfpfr3zy6evw0mckf.png",
-          "phone_number": 6316961113,
-          "street": "1315 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.060218,
-            40.862426
-          ],
-          "type": "Point"
-        },
-        "id": "9b5852e8292fabded266ec3804ab6d20"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2415288,
-          "name": "Firebelly Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1620258866/prfxsufb1covthevthjj.jpg",
-          "phone_number": 8882846146,
-          "street": "1070 Middle Country Rd Ste 13",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "9b7fa0b50ce888a45749a54529879375"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5451560,
-          "name": "Yume Ramen",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1673455553/rs2gzezvvc907eejgy17.png",
-          "phone_number": 6314569013,
-          "street": "350-4 Smith Haven Mall,",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.130264,
-            40.862903
-          ],
-          "type": "Point"
-        },
-        "id": "9da60eb6f943255f97c64cc9e02eaf6f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 286336,
-          "name": "Mesoyios Greek-Cypriot Restaurant",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1462910480/zjbmesolm19grmenrl34.jpg",
-          "phone_number": 6316487511,
-          "street": "472 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.107805,
-            40.825578
-          ],
-          "type": "Point"
-        },
-        "id": "a0905c707a8e2035151dd3fe23076c00"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2651471,
-          "name": "Taichi Tea",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1615825385/kkhitpxhvxspuad8lups.png",
-          "phone_number": 6316892110,
-          "street": "2460 Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.117355,
-            40.878078
-          ],
-          "type": "Point"
-        },
-        "id": "a0933ec1fd2a042e59b1896c36668097"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3098102,
-          "name": "Kabayan Grill Inc",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1639649027/vscymeat43hvfc1dl7qf.png",
-          "phone_number": 6313200710,
-          "street": "1075 Portion Rd",
-          "city": "Farmingville",
-          "state": "NY",
-          "zip_code": 11738
-        },
-        "geometry": {
-          "coordinates": [
-            -73.064048,
-            40.836841
-          ],
-          "type": "Point"
-        },
-        "id": "a1f592e2c90d8d59afd83546dd55a0cf"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2773249,
-          "name": "Food Express",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1622132345/gcdxt8d0uvm5lrfca3t9.jpg",
-          "phone_number": 5162383432,
-          "street": "13 Centereach Mall",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.080924,
-            40.859184
-          ],
-          "type": "Point"
-        },
-        "id": "a33f74baeeb14bda5458e670e20f01b4"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2415525,
-          "name": "Hamza & Madina Halal Food",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1578518358/yvtyxurmtafhpx6eh3wz.jpg",
-          "phone_number": 6315801222,
-          "street": "630 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085914,
-            40.831378
-          ],
-          "type": "Point"
-        },
-        "id": "a3d5420c82aef131563c27b683814605"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2650178,
-          "name": "American Grilled Cheese Company",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616523013/vamkocitccbf4yllwivs.png",
-          "phone_number": 6313200903,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "a4500aa38ab1b271eed36b3e503d959d"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2114409,
-          "name": "On The Border",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1594240864/hsmdnnvh8voqh5uf3raq.png",
-          "phone_number": 6313172657,
-          "street": "45 Middle Ave",
-          "city": "Holtsville",
-          "state": "NY",
-          "zip_code": 11742
-        },
-        "geometry": {
-          "coordinates": [
-            -73.055976,
-            40.818294
-          ],
-          "type": "Point"
-        },
-        "id": "a68d0d1ac6eafa8c2a763e58699ae701"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1958632,
-          "name": "Island Empanada of Ronkonkoma",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1607104524/j58jybpqmgtcuvhbmosb.jpg",
-          "phone_number": 6316176427,
-          "street": "601 Portion Rd #13",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.088012,
-            40.832157
-          ],
-          "type": "Point"
-        },
-        "id": "a6de7b1353f0fcbc6fda730ae712dbec"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 974946,
-          "name": "Taco Bell",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1507761709/pqssgagabmtgqjwodrqq.png",
-          "phone_number": 6314670121,
-          "street": "360 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.098281,
-            40.828216
-          ],
-          "type": "Point"
-        },
-        "id": "aa5e282b1f1928997c82941daa979335"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2977304,
-          "name": "Kinghouse",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1632903616/ltskma7ikahco9yvhc66.png",
-          "phone_number": 6316763381,
-          "street": "2350 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.094436,
-            40.857666
-          ],
-          "type": "Point"
-        },
-        "id": "ac337b1dbdeefeed49c8d6819a8304ee"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3280285,
-          "name": "La bamba",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1650970186/uw4jqb4iamndxtmgc98l.png",
-          "phone_number": 6316767200,
-          "street": "600 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.088488,
-            40.830841
-          ],
-          "type": "Point"
-        },
-        "id": "aea997849474b5f114414d27e8c56896"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3332771,
-          "name": "Railway Wine And Liquors",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1655259246/keuix0x3jyjxgtiuc4sm.jpg",
-          "phone_number": 6316483881,
-          "street": "31 Railroad Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.109672,
-            40.808555
-          ],
-          "type": "Point"
-        },
-        "id": "b477c107c54f37ac31d771604c13d94a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2882712,
-          "name": "Beer & Smoke Shop",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1614183605/roxuilhchmqcglwazopq.png",
-          "phone_number": 6314067720,
-          "street": "127 Smithtown Blvd #1-2",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.160346,
-            40.838378
-          ],
-          "type": "Point"
-        },
-        "id": "b73142fdae3eb1719c4e9cc8bc9abff9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 999852,
-          "name": "Boston Market",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593711034/b6ryxi5zjujbjvcnah0y.png",
-          "phone_number": 6317364577,
-          "street": "966 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.046752,
-            40.863666
-          ],
-          "type": "Point"
-        },
-        "id": "b78a40af207cc62568df9a7d9ec4e71b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3094880,
-          "name": "Mighty Mac n Cheese",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1639566014/ytixxy7zyu8eacxprc0z.jpg",
-          "phone_number": 6313200903,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "b8131c63e28dfef0c4123632184aefea"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2560239,
-          "name": "Wrapped Up Cafe",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1612181257/l1qpyg1gtbrmxdw9ku8a.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "b932bb83101a63b2126abdc4eb4bb7ed"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2250612,
-          "name": "Long Island Munchies",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593595241/c5fg2knyzx8vnnwoojrr.png",
-          "phone_number": 6318468898,
-          "street": "810 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.041061,
-            40.8652
-          ],
-          "type": "Point"
-        },
-        "id": "b99eb07a4afd87266b5973e5a67f543c"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2807804,
-          "name": "Iron Ramen",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1624432266/q90pv2dcpk02bwxtcuxk.jpg",
-          "phone_number": 6316750228,
-          "street": "2350 Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.120513,
-            40.875907
-          ],
-          "type": "Point"
-        },
-        "id": "bba826b2a2a4549c1de4a1348cfcfeff"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3050945,
-          "name": "Veg-e-licious Burger",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1629397942/nt9migznyoyhd6gzmgnx.jpg",
-          "phone_number": 8883130284,
-          "street": "1070 Middle Country Rd #13",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "bc5848457d48d4cbb939ea9d2c48a4eb"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3035226,
-          "name": "Miller's Ale House",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610005386/vom7jjaityqubjazsb34.png",
-          "phone_number": 6317386725,
-          "street": "4000 Middle Country Rd",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.128555,
-            40.86156
-          ],
-          "type": "Point"
-        },
-        "id": "bf403696d54370a1a5aa0d3ae3b18907"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3125171,
-          "name": "Confection Perfection",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1642012152/wkzlsl1exsh0ydmuzfqs.png",
-          "phone_number": 6316992399,
-          "street": "239 Hawkins Avenue",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.107505,
-            40.817764
-          ],
-          "type": "Point"
-        },
-        "id": "bf77ed06a8311f2769436a4cb86e7500"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1231085,
-          "name": "The Wicked Wings",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610913440/hea1dxmvm8yzxsuc8uau.png",
-          "phone_number": 6316765500,
-          "street": "625 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.085929,
-            40.832057
-          ],
-          "type": "Point"
-        },
-        "id": "c041a248c07370f42a2de9c0a045c908"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1051687,
-          "name": "Auntie Anne's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1544051535/mlwgqqjmsonjqczv4afy.jpg",
-          "phone_number": 6313603005,
-          "street": "313 Smith Haven Mall",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.129928,
-            40.864887
-          ],
-          "type": "Point"
-        },
-        "id": "c079afc048aa2df448786287b414c670"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1148602,
-          "name": "MELTology Grilled Cheese",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1553794666/x943a1h7ka720vnj0fsd.png",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "c25c18a537e5a4fc893929fbbc0e6cd1"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2755752,
-          "name": "7-Eleven",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1601307393/ejn7cwuktve7vnihgakx.jpg",
-          "phone_number": 6317386832,
-          "street": "2209 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.08982,
-            40.858737
-          ],
-          "type": "Point"
-        },
-        "id": "c323332ee66de3eea03e9430a30e3951"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2118027,
-          "name": "YogoMania Holbrook",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1588708574/sgzuxauifemjlhgigdim.jpg",
-          "phone_number": 6314380323,
-          "street": "315 Main St",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.078201,
-            40.811492
-          ],
-          "type": "Point"
-        },
-        "id": "c3cb22d559b855f0b593cea4de39f834"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1005971,
-          "name": "KFC",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1595270589/jtaljmqt7kjim6vt5hiq.png",
-          "phone_number": 6314679291,
-          "street": "1990 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.082077,
-            40.857959
-          ],
-          "type": "Point"
-        },
-        "id": "c43f96c28072a90eba50b3b2f3ae3066"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2650467,
-          "name": "Burger Bros",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1615820419/kapwkl0br5nunsln2wss.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "c51a68d533345648c96ed2a218270f0b"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1054899,
-          "name": "Red Lobster",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1508788876/dw7xmxsar3wwbkau9sk0.png",
-          "phone_number": 6316899060,
-          "street": "2220 Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.124542,
-            40.873752
-          ],
-          "type": "Point"
-        },
-        "id": "c5cc31e75bccb907ee02fa286e9c84e9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3350683,
-          "name": "Valero Gas Station",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1655294580/hurd10u8aktksiyyhquz.jpg",
-          "phone_number": 6312852752,
-          "street": "1080 Main Street",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.078086,
-            40.810035
-          ],
-          "type": "Point"
-        },
-        "id": "c610d36d224f08f62a56be0404ca53b0"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3170794,
-          "name": "CakeFairyland",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1647403440/rcqwamp2x0zhhfoubzgk.jpg",
-          "phone_number": 6316750581,
-          "street": "1320 Stony Brook Rd Building C",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.118774,
-            40.877201
-          ],
-          "type": "Point"
-        },
-        "id": "c6b27770a1b43b8b8165ce875a81ebc2"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2970533,
-          "name": "Pizza Stop",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1632470706/qni0od19qegt5bli5wpo.png",
-          "phone_number": 6317328673,
-          "street": "1020 Portion Rd",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.068985,
-            40.834998
-          ],
-          "type": "Point"
-        },
-        "id": "c71438125d599c8b3ec624a3d8f4ec3a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2666736,
-          "name": "Waffle Shack",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616526887/kickdrvmqcimopjgubgp.png",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.10852,
-            40.835289
-          ],
-          "type": "Point"
-        },
-        "id": "c73ef887fd8ca09e797c7d57410c5125"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 687515,
-          "name": "Zan's Kosher Delicatessen",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1517426421/ghw0kfztg7mzzlazd7uv.png",
-          "phone_number": 6319798770,
-          "street": "135 Alexander Ave",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.134384,
-            40.863983
-          ],
-          "type": "Point"
-        },
-        "id": "c77b506264cb8f8dab3d859a8f7fd194"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1338427,
-          "name": "McDonald's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1604203242/u1qpsfyly2thulxf5mek.png",
-          "phone_number": 6317325254,
-          "street": "1724 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.072669,
-            40.859691
-          ],
-          "type": "Point"
-        },
-        "id": "c872bd76ed86c1cb3847832af097eadb"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 299056,
-          "name": "California Pizza Kitchen",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1462383035/qlotyea1qygnkfpoapec.jpg",
-          "phone_number": 6313829611,
-          "street": "618 Smith Haven Mall",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.129721,
-            40.862987
-          ],
-          "type": "Point"
-        },
-        "id": "c8805dff0ac5002242343be780fe2849"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1021247,
-          "name": "Burger King",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1632495142/c8ekbqvhz9bqzrb4eabl.png",
-          "phone_number": 6317381462,
-          "street": "1880 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.078849,
-            40.858699
-          ],
-          "type": "Point"
-        },
-        "id": "cb0e634ca252f110b30f2cb9a8a57fd9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 320648,
-          "name": "Ginos of Nesconset",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1611772228/gzvxohbcwwpe769es9sk.png",
-          "phone_number": 6317240726,
-          "street": "248 Smithtown Blvd",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.147512,
-            40.832774
-          ],
-          "type": "Point"
-        },
-        "id": "d1b165aa011a58649def039d90b1a2b9"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2054217,
-          "name": "Panera Bread",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1663174467/pkok0ahwiw6mgllqtrbb.png",
-          "phone_number": 8553726372,
-          "street": "136 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.108428,
-            40.826011
-          ],
-          "type": "Point"
-        },
-        "id": "d4aa8276740ca9e7be4f565cb6274227"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5649208,
-          "name": "Pardon My Cheesesteak",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1660747750/qndzfpnanmr1lywy8ujw.jpg",
-          "phone_number": 8335293287,
-          "street": "339 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.099258,
-            40.828506
-          ],
-          "type": "Point"
-        },
-        "id": "d5549ae99860043d2e734b691d8fd943"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3239419,
-          "name": "Dunkin'",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1569964224/fcm1cxdnttc7s3yekvi7.png",
-          "phone_number": 5164727100,
-          "street": "665 Middle Country Rd",
-          "city": "Saint James",
-          "state": "NY",
-          "zip_code": 11780
-        },
-        "geometry": {
-          "coordinates": [
-            -73.154968,
-            40.860797
-          ],
-          "type": "Point"
-        },
-        "id": "dd16dcf90d993f82bb1f8f6b11d18f68"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1716947,
-          "name": "Burrito Palace and Grill",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1576511853/qxtzbhnl5opcjqzllvm6.gif",
-          "phone_number": 6318466755,
-          "street": "1018 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.069094,
-            40.834984
-          ],
-          "type": "Point"
-        },
-        "id": "dd6b3827c76f4bc36338c8cbf63c06db"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2222420,
-          "name": "MELTology Grilled Cheese",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1592920469/qloi7g8vzeah3l6xknme.png",
-          "phone_number": 6313127561,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "ddc8525bc3854a66d6f61e3b4d178c7f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3264529,
-          "name": "Clay oven",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1649847766/srf5vuotsygc84zpklg7.png",
-          "phone_number": 6313200386,
-          "street": "1245 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.054267,
-            40.863334
-          ],
-          "type": "Point"
-        },
-        "id": "df5df32f3a49b35b69616088c6af4431"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2709871,
-          "name": "The Pizzeria of Lake Grove",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1643148174/bpz18okorqa0ywphyrzn.jpg",
-          "phone_number": 6316529987,
-          "street": "342 Smith Haven Mall",
-          "city": "Lake Grove",
-          "state": "NY",
-          "zip_code": 11755
-        },
-        "geometry": {
-          "coordinates": [
-            -73.130119,
-            40.862922
-          ],
-          "type": "Point"
-        },
-        "id": "e0410342c87a042e65aa507c8cdf3694"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3224427,
-          "name": "Meet Noodle",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1647528181/vrsuh7zzddcqhbqaq0sd.png",
-          "phone_number": 6316751888,
-          "street": "2166 Nesconset Hwy",
-          "city": "Stony Brook",
-          "state": "NY",
-          "zip_code": 11790
-        },
-        "geometry": {
-          "coordinates": [
-            -73.125984,
-            40.873153
-          ],
-          "type": "Point"
-        },
-        "id": "e187b894b21be16d236a4b0c7ed61a11"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4006624,
-          "name": "Joe's Campus Heroes",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1540226861/roeputw25yag8hdjpt8n.png",
-          "phone_number": 6318468898,
-          "street": "810 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.041061,
-            40.8652
-          ],
-          "type": "Point"
-        },
-        "id": "e6391e7c0100339d567980c16fbe2964"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2058284,
-          "name": "Ralph's Italian Ice",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1593095410/mag9wjvgw71tsvt8wvrw.png",
-          "phone_number": 6313201317,
-          "street": "1370 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.060424,
-            40.861629
-          ],
-          "type": "Point"
-        },
-        "id": "e7a8f28eb8805603dc2ec1d106c69a9c"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1160037,
-          "name": "Texas Chicken and Burgers",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1544219026/kb6n9cozlktvrvxhr8r3.jpg",
-          "phone_number": 6316152894,
-          "street": "2332 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.093902,
-            40.857719
-          ],
-          "type": "Point"
-        },
-        "id": "e8357e90f7cc49126d1598d32352b501"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1703611,
-          "name": "Homerun Heros",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1576007937/x0r6oifyrh9z8zaohvbm.png",
-          "phone_number": 6314510400,
-          "street": "1366 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.059967,
-            40.861598
-          ],
-          "type": "Point"
-        },
-        "id": "e8eab531742858d3b1c5fc53a43c2fd7"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 554830,
-          "name": "Crazy Crepe Cafe - Ronkonkoma",
-          "logo": "https://res.cloudinary.com/grubhub/image/upload/v1452379381/pks1mzlhwddmi7yxyedz.jpg",
-          "phone_number": 6316484430,
-          "street": "721 Hawkins Ave",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.108519,
-            40.835288
-          ],
-          "type": "Point"
-        },
-        "id": "e9ecf21c3debc9e23422725bb05d3e37"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 472677,
-          "name": "Tropical Smoothie Cafe",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1674487684/cxytfmkuh5wba3dsez3j.png",
-          "phone_number": 6319818767,
-          "street": "137 Centereach Mall",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.082445,
-            40.859083
-          ],
-          "type": "Point"
-        },
-        "id": "ef384e8374ae03ab13d8e66ba6107577"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4339640,
-          "name": "Giorgio's Pizzeria and Italian Ristorante",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1660034268/mq4mslgfyypvt1qznckk.png",
-          "phone_number": 6313608511,
-          "street": "224 Smithtown Blvd",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.149871,
-            40.834114
-          ],
-          "type": "Point"
-        },
-        "id": "eff3fc8c45c981f16c732b7f9a43d320"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2534899,
-          "name": "Chan's Restaurant",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1610998815/sl9ntyqw5mfdmgfminmy.png",
-          "phone_number": 6315887650,
-          "street": "297 Smithtown Blvd",
-          "city": "Nesconset",
-          "state": "NY",
-          "zip_code": 11767
-        },
-        "geometry": {
-          "coordinates": [
-            -73.133738,
-            40.831991
-          ],
-          "type": "Point"
-        },
-        "id": "f0828b9aa98d2d76ede060a4ae8b017f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5668984,
-          "name": "Kickbox Cafe & Smoothies",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1676660984/dciwr0np9pkv7c4ne9ty.png",
-          "phone_number": 6315885425,
-          "street": "310 Main Street",
-          "city": "Holbrook",
-          "state": "NY",
-          "zip_code": 11741
-        },
-        "geometry": {
-          "coordinates": [
-            -73.079727,
-            40.810916
-          ],
-          "type": "Point"
-        },
-        "id": "f1eb633b413f2d4b1c80fb2fbf9e750f"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2651697,
-          "name": "Chicken Kitchen",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1616523136/h8qtva3sy2ghspxsifp2.png",
-          "phone_number": 6314512740,
-          "street": "1070 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.050582,
-            40.86293
-          ],
-          "type": "Point"
-        },
-        "id": "f32d3bbf57095ad5b3b4cde37e7a135e"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 1018378,
-          "name": "Shah's Halal Food",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1541972966/hzuy47f7rlzhoh9yzqts.png",
-          "phone_number": 6313463366,
-          "street": "1245 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.054267,
-            40.863334
-          ],
-          "type": "Point"
-        },
-        "id": "f3da38b3a37f79d49a610fc42d1e3bdb"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2466330,
-          "name": "Popeyes",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1665413890/togeqpscsypd1t7koyr7.png",
-          "phone_number": 6316488736,
-          "street": "1770 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.074378,
-            40.85868
-          ],
-          "type": "Point"
-        },
-        "id": "f577ac5c3b558f08163f323f284863c6"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 3269688,
-          "name": "Almasry Grocery Store",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1650048531/bui7aco792hktt5038cf.jpg",
-          "phone_number": 6318464510,
-          "street": "1310 Middle Country Rd",
-          "city": "Selden",
-          "state": "NY",
-          "zip_code": 11784
-        },
-        "geometry": {
-          "coordinates": [
-            -73.058013,
-            40.861507
-          ],
-          "type": "Point"
-        },
-        "id": "f8ccc9df6f63f741181e3f7815859a95"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 5390120,
-          "name": "Pop's Pizza",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1539021091/vjgupqmvsvh70lzmgjed.png",
-          "phone_number": 6317363957,
-          "street": "1021 Portion Rd Unit 9",
-          "city": "Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.068267,
-            40.836029
-          ],
-          "type": "Point"
-        },
-        "id": "fab262238768bfe0025419d6ddf5eb62"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 2455589,
-          "name": "Jersey Mike's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1664813888/ismzooaj9ih9gqmnrj1z.jpg",
-          "phone_number": 6313826382,
-          "street": "601 Portion Rd",
-          "city": "Lake Ronkonkoma",
-          "state": "NY",
-          "zip_code": 11779
-        },
-        "geometry": {
-          "coordinates": [
-            -73.089134,
-            40.832229
-          ],
-          "type": "Point"
-        },
-        "id": "fe6e3a7ba1fcce3530a72d2abb0aa89a"
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "restaurant_id": 4760096,
-          "name": "Arby's",
-          "logo": "https://media-cdn.grubhub.com/image/upload/v1599148821/snm3x80yxadvvjfznkhp.png",
-          "phone_number": 6316764957,
-          "street": "1759 Middle Country Rd",
-          "city": "Centereach",
-          "state": "NY",
-          "zip_code": 11720
-        },
-        "geometry": {
-          "coordinates": [
-            -73.073081,
-            40.860485
-          ],
-          "type": "Point"
-        },
-        "id": "fea1df26c1266cd9189db0e5c316f903"
-      }
-    ],
-    "type": "FeatureCollection"
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08982087,40.85873794 ]
+    },
+    "properties": {
+    "kitchen_id":2540535,
+    "is_real":"1",
+    "name":"7-Eleven",
+    "phone_number":"(631) 738-6832",
+    "street_address":"2209 Middle Country Rd",
+    "notes":2540535,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1537282308/wzhxnbyytakpquusxuie.jpg",
+    "distance":"1.4 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08982087,40.85873794 ]
+    },
+    "properties": {
+    "kitchen_id":2630427,
+    "is_real":"0",
+    "name":"Grubhub Goods",
+    "phone_number":"(855) 711-7669",
+    "street_address":"2209 Middle Country Rd",
+    "notes":2540535,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1614685317/idnr70xjtrk1z7sn93wz.png",
+    "distance":"1.4 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08092499,40.85918426 ]
+    },
+    "properties": {
+    "kitchen_id":1338427,
+    "is_real":"1",
+    "name":"Dickey's Barbecue Pit",
+    "phone_number":"(631) 807-8804",
+    "street_address":"13 Centereach Mall",
+    "notes":1338427,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1604203242/u1qpsfyly2thulxf5mek.png",
+    "distance":"1.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08092499,40.85918426 ]
+    },
+    "properties": {
+    "kitchen_id":2466330,
+    "is_real":"0",
+    "name":"Food Express",
+    "phone_number":"(516) 238-3432",
+    "street_address":"13 Centereach Mall",
+    "notes":1338427,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1665413890/togeqpscsypd1t7koyr7.png",
+    "distance":"1.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10301209,40.88414764 ]
+    },
+    "properties": {
+    "kitchen_id":986101,
+    "is_real":"1",
+    "name":"Chili's",
+    "phone_number":"(631) 580-2842",
+    "street_address":"280 Pond Path",
+    "notes":986101,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1510584274/fxtdbzf999vmp2d4ua3n.jpg",
+    "distance":"2.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10301209,40.88414764 ]
+    },
+    "properties": {
+    "kitchen_id":1059740,
+    "is_real":"0",
+    "name":"It's Just Wings",
+    "phone_number":"(631) 580-2842",
+    "street_address":"280 Pond Path",
+    "notes":986101,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1594059746/dr67obcudjix1srrxn0k.png",
+    "distance":"2.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":999852,
+    "is_real":"0",
+    "name":"Wrapped Up Cafe",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1593711034/b6ryxi5zjujbjvcnah0y.png",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":1198582,
+    "is_real":"1",
+    "name":"Crazy Crepe Cafe - Ronkonkoma",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1557849717/xgkgs08xepsveulgjake.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10852051,40.835289 ]
+    },
+    "properties": {
+    "kitchen_id":2298792,
+    "is_real":"1",
+    "name":"MELTology Grilled Cheese",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":2298792,
+    "city":"Lake Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1596547148/z6wbilcfwuzmcjirny6j.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":2884167,
+    "is_real":"0",
+    "name":"Long Island Coffee Company",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1628272819/uxcyinrl0ylv4csxeto9.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":3094880,
+    "is_real":"0",
+    "name":"Better Bowls",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1639566014/ytixxy7zyu8eacxprc0z.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10852051,40.835289 ]
+    },
+    "properties": {
+    "kitchen_id":4315816,
+    "is_real":"0",
+    "name":"Waffle Shack",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":2298792,
+    "city":"Lake Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1659601257/iordm3v2boivfsvenhto.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":4437032,
+    "is_real":"0",
+    "name":"Crazy Bowls (Acai Bowls & More)",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1652718040/rmsybats7zxgz9vujxrz.png",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":5390120,
+    "is_real":"0",
+    "name":"American Crepe Company",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1539021091/vjgupqmvsvh70lzmgjed.png",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05426789,40.86333465 ]
+    },
+    "properties": {
+    "kitchen_id":687515,
+    "is_real":"1",
+    "name":"Clay oven",
+    "phone_number":"(631) 320-0386",
+    "street_address":"1245 Middle Country Rd",
+    "notes":1292085,
+    "city":"Lake Grove",
+    "state":"NY",
+    "zip_code":11755,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1517426421/ghw0kfztg7mzzlazd7uv.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05426789,40.86333465 ]
+    },
+    "properties": {
+    "kitchen_id":1292085,
+    "is_real":"0",
+    "name":"Shah's Halal Food",
+    "phone_number":"(631) 346-3366",
+    "street_address":"1245 Middle Country Rd",
+    "notes":1292085,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1606749528/ijxajvyjjd1elqyaxeu9.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2041219,
+    "is_real":"1",
+    "name":"Island Lake Diner",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1584979127/xs71w1so4szuy25cemep.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2114409,
+    "is_real":"0",
+    "name":"Salad Creations",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1594240864/hsmdnnvh8voqh5uf3raq.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2415437,
+    "is_real":"0",
+    "name":"Burger Heaven",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1613756247/aqjqenaly8rilhhlk9ci.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.15844727,40.85987854 ]
+    },
+    "properties": {
+    "kitchen_id":2560237,
+    "is_real":"1",
+    "name":"Toxic Wings",
+    "phone_number":"(631) 360-6600",
+    "street_address":"600 Middle Country Rd",
+    "notes":2560237,
+    "city":"Nesconset",
+    "state":"NY",
+    "zip_code":11768,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612194995/bz4kgbztulkhfm4iadyj.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2560449,
+    "is_real":"0",
+    "name":"Americana Burgers and Wings",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612179367/fnxioxoq2rj4myaaccsz.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2560861,
+    "is_real":"0",
+    "name":"Boom Boom Soups Salads & Sandwiches",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612194995/bz4kgbztulkhfm4iadyj.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2773249,
+    "is_real":"0",
+    "name":"Cheezon",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1622132345/gcdxt8d0uvm5lrfca3t9.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":3203026,
+    "is_real":"0",
+    "name":"The Wicked Wings",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1646435627/lj0t2ml1wgjvraqp0raq.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.15844727,40.85987854 ]
+    },
+    "properties": {
+    "kitchen_id":3303512,
+    "is_real":"0",
+    "name":"Lorenzo’s pizza",
+    "phone_number":"(631) 360-6600",
+    "street_address":"600 Middle Country Rd",
+    "notes":2560237,
+    "city":"Nesconset",
+    "state":"NY",
+    "zip_code":11767,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1652275557/nb79beqg2u0ax6kcoas1.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":3332771,
+    "is_real":"0",
+    "name":"Munchies To Your Door",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1655259246/keuix0x3jyjxgtiuc4sm.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":320739,
+    "is_real":"0",
+    "name":"Wild Wild Wings",
+    "phone_number":"(888) 729-4870",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1453224430/fkwsavjj5pm6ac7vsezz.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":1084704,
+    "is_real":"0",
+    "name":"Grilled Cheese Society",
+    "phone_number":"(888) 422-8951",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1548378942/fc1ojh7q6xrtd2syyqpi.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":1193976,
+    "is_real":"0",
+    "name":"Outlaw Burger",
+    "phone_number":"(888) 548-0599",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1609805144/npp3at7u5pmstkogyelq.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":1532469,
+    "is_real":"0",
+    "name":"Chicken Kitchen",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1581629662/xhqpth0fo3hxw8afwlzr.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2207891,
+    "is_real":"0",
+    "name":"Burger Bros",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1595285513/pcizrfonnwrelygiynw2.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2222420,
+    "is_real":"0",
+    "name":"CraveBurger",
+    "phone_number":"(888) 259-5475",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1592920469/qloi7g8vzeah3l6xknme.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2250612,
+    "is_real":"0",
+    "name":"Wrapped Up Cafe",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1593595241/c5fg2knyzx8vnnwoojrr.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2398054,
+    "is_real":"0",
+    "name":"The Big Melt",
+    "phone_number":"(888) 633-9509",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1602521194/dt4jytzrsspqxpmbhqen.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2415289,
+    "is_real":"1",
+    "name":"Crazy Crepe Cafe",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1617988495/olno0isas6e7ssc0lwov.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2415525,
+    "is_real":"0",
+    "name":"Wing Shack",
+    "phone_number":"(631) 320-0903",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1578518358/yvtyxurmtafhpx6eh3wz.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2560451,
+    "is_real":"0",
+    "name":"Crazy Bowls (Acai Bowls & More)",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612190926/sjimdjryhqsplzm9afyw.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2651471,
+    "is_real":"0",
+    "name":"Long Island Coffee Company",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1615825385/kkhitpxhvxspuad8lups.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2738640,
+    "is_real":"0",
+    "name":"American Crepe Company",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1620207556/okfyfulzqrmgxteu2nm6.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2930682,
+    "is_real":"0",
+    "name":"Waffle Shack",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1624548016/zpg9cak1e1nesqyvv4bx.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":3173114,
+    "is_real":"1",
+    "name":"MELTology Grilled Cheese",
+    "phone_number":"(631) 312-7561",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1644603691/aenzu1pnqk2sagjftk4i.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":3269688,
+    "is_real":"0",
+    "name":"Firebelly Wings",
+    "phone_number":"(888) 284-6146",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1650048531/bui7aco792hktt5038cf.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":3323940,
+    "is_real":"0",
+    "name":"Better Bowls",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1643742399/stpxadd9vztx0wkvid1c.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":4492248,
+    "is_real":"0",
+    "name":"Mighty Mac n Cheese",
+    "phone_number":"(631) 320-0903",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1667420080/k7fmw2oprbjq65muuh1q.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86292266 ]
+    },
+    "properties": {
+    "kitchen_id":4619168,
+    "is_real":"0",
+    "name":"HuevoRito",
+    "phone_number":"(844) 485-1466",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1639417893/uvpln33fpa9e8pwifs54.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":5506648,
+    "is_real":"0",
+    "name":"Veg-e-licious Burger",
+    "phone_number":"(888) 313-0284",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1657634225/cbncyrvhb4anfq6iqtyv.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":5506656,
+    "is_real":"0",
+    "name":"American Grilled Cheese Company",
+    "phone_number":"(631) 320-0903",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612969260/u236slofq9fhh2nrso6r.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":1,
+    "is_real":"1",
+    "name":"IHOP",
+    "phone_number":"(833) 529-3286",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1672930027/nmzc3fo0rh0ok2l0necj.jpg",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":314874,
+    "is_real":"0",
+    "name":"TenderFix by Noah Schnapp",
+    "phone_number":"(888) 407-7961",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1610644884/ua1tx2jn6adqvbhiygtg.png",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":1229469,
+    "is_real":"0",
+    "name":"Super Mega Dilla",
+    "phone_number":"(888) 719-3595",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1610898369/im11bseluddf8xkpqp4a.jpg",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":2666736,
+    "is_real":"0",
+    "name":"Thrilled Cheese",
+    "phone_number":"(888) 671-3561",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1616526887/kickdrvmqcimopjgubgp.png",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":3368478,
+    "is_real":"0",
+    "name":"Pardon My Cheesesteak",
+    "phone_number":"(833) 529-3287",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1672930027/nmzc3fo0rh0ok2l0necj.jpg",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04106141,40.86520004 ]
+    },
+    "properties": {
+    "kitchen_id":320648,
+    "is_real":"0",
+    "name":"Long Island Munchies",
+    "phone_number":"(631) 846-8898",
+    "street_address":"810 Middle Country Rd",
+    "notes":1719178,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1611772228/gzvxohbcwwpe769es9sk.png",
+    "distance":"3.8 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04106141,40.86520004 ]
+    },
+    "properties": {
+    "kitchen_id":1674326,
+    "is_real":"0",
+    "name":"Kim's Cafe",
+    "phone_number":"(631) 846-8898",
+    "street_address":"810 Middle Country Rd",
+    "notes":1719178,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1574870004/un8zbyvnajrk67741xfy.png",
+    "distance":"3.8 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04106141,40.86520004 ]
+    },
+    "properties": {
+    "kitchen_id":1719178,
+    "is_real":"1",
+    "name":"Joe's Campus Heroes",
+    "phone_number":"(631) 846-8898",
+    "street_address":"810 Middle Country Rd",
+    "notes":1719178,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1592936854/pn3guzbsfgkvumwpvude.png",
+    "distance":"3.8 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10980225,40.80856323 ]
+    },
+    "properties": {
+    "kitchen_id":1018378,
+    "is_real":"1",
+    "name":"Carlo's Gourmet Italian Ices",
+    "phone_number":"(631) 404-7021",
+    "street_address":"27 Railroad Ave",
+    "notes":1018378,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1541972966/hzuy47f7rlzhoh9yzqts.png",
+    "distance":"3.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10980225,40.80856323 ]
+    },
+    "properties": {
+    "kitchen_id":3123716,
+    "is_real":"0",
+    "name":"Slices & Ices",
+    "phone_number":"(631) 285-2920",
+    "street_address":"27 Railroad Ave",
+    "notes":1018378,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1641547402/n08mctzwzwi8s5yhmhmz.png",
+    "distance":"3.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05597687,40.81829452 ]
+    },
+    "properties": {
+    "kitchen_id":276827,
+    "is_real":"0",
+    "name":"Buddy V's Cake Slice",
+    "phone_number":"(888) 801-0253",
+    "street_address":"45 Middle Ave",
+    "notes":3224528,
+    "city":"Lake Grove",
+    "state":"NY",
+    "zip_code":11755,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1452379381/pks1mzlhwddmi7yxyedz.jpg",
+    "distance":"5.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05597687,40.81829452 ]
+    },
+    "properties": {
+    "kitchen_id":3224528,
+    "is_real":"1",
+    "name":"On The Border",
+    "phone_number":"(631) 317-2657",
+    "street_address":"45 Middle Ave",
+    "notes":3224528,
+    "city":"Lake Grove",
+    "state":"NY",
+    "zip_code":11755,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1648827140/zquicj3sklfzjfpwpxzv.png",
+    "distance":"5.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.07411194,40.80815505 ]
+    },
+    "properties": {
+    "kitchen_id":2650178,
+    "is_real":"0",
+    "name":"Bhorpet Foods",
+    "phone_number":"(631) 615-6705",
+    "street_address":"975 Main St",
+    "notes":null,
+    "city":"Holbrook",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1616523013/vamkocitccbf4yllwivs.png",
+    "distance":"7.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.07411194,40.80815505 ]
+    },
+    "properties": {
+    "kitchen_id":5276080,
+    "is_real":"1",
+    "name":"Shah's Halal Food - Holbrook",
+    "phone_number":"(631) 285-2821",
+    "street_address":"975 Main St",
+    "notes":null,
+    "city":"Holbrook",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1594323914/ov3fv2jkdnasoekldsni.png",
+    "distance":"7.3 mi"
+    }
   }
+]
+}
