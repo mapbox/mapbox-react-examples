@@ -102,18 +102,49 @@ map.on('click', 'clusters', (e) => {
 
   // Get all points under a cluster
   map.getSource('kitchens').getClusterLeaves(clusterId, point_count, 0, function (err, aFeatures) {
-    var popupString = "";
+    let popupReal = "";
+    let popupGhost = ""
     var childrenCount = Object.keys(aFeatures).length
     const isReal = aFeatures.filter(kitchen => kitchen.properties.is_real === '1')
     const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
     const orderedArray = (isReal.length === 1 ? isReal.concat(isGhost) : [])
     orderedArray.map(kitchen => {
       console.log(kitchen.properties.is_real, kitchen.properties.name)
-      popupString += `<h3 style="background-color:${kitchen.properties.is_real == 1 ? '#91c949' : 'red'}">${kitchen.properties.name}</h3>`
+      if(kitchen.properties.is_real === '1'){
+        popupReal += `
+        <h3 class="real-kitchen" style="background-color:#91c949">${kitchen.properties.name}</h3>
+        `
+      }
+      if(kitchen.properties.is_real === '0'){
+        popupGhost += `
+        <h3 class="ghost-kitchen" style="background-color:red">${kitchen.properties.name}</h3>
+        `
+      }
     })
-    orderedArray.length > 1 && new mapboxgl.Popup()
+
+    let popupGhostContainer = `
+      <div class="ghost-container">
+        <h2>Ghost</h2>
+        <div class="ghost-kitchens">
+          ${popupGhost}
+        </div>
+      </div>
+      `
+    let popupRealContainer = `
+      <div class="real-container">
+        <h2>Real</h2>
+        <div class="real-kitchens">
+          ${popupReal}
+        </div>
+      </div>
+      `
+    const popupHtml = `${popupRealContainer}${popupGhostContainer}`
+    orderedArray.length > 1 && new mapboxgl.Popup({
+                                closeButton: false,
+                                maxWidth: "auto"
+                              })
       .setLngLat(coordinates)
-      .setHTML(popupString)
+      .setHTML(popupHtml)
       .addTo(map);
   })
 

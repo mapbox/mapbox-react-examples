@@ -2,22 +2,14 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   color: #404040;
   font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
-}
-
-h1 {
-  font-size: 22px;
-  margin: 0;
-  font-weight: 400;
-  line-height: 20px;
-  padding: 20px 2px;
 }
 
 a {
@@ -54,30 +46,20 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
   border-bottom: 1px solid #eee;
   height: 60px;
   line-height: 60px;
-  padding: 0 10px;
 }
 
 .mapboxgl-popup-content {
-  padding: 0;
-  width: 10em;
-  height: 6em;
-  display: flex;
-  font-size: 1.5rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
+  font-size: 1.125rem;
+  width: fit-content;
 }
 
 .mapboxgl-popup-content h3 {
   font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  text-align: center;
   color: #fff;
-  margin: 0;
-  padding: 15px 15px;
-  width: 90%;
-  border-radius: 5px;
-  font-weight: 700;
   user-select: none;
+  padding: 10px;
 }
 
 .mapboxgl-popup-content h3:hover {
@@ -86,4 +68,50 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 
 .mapboxgl-popup-content-wrapper {
   padding: 1%;
+}
+
+.real-container {
+  height: fit-content;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.real-kitchen {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.real-kitchen:hover {
+  background-color: 'red';
+}
+
+.ghost-container {
+  padding: 0;
+  height: fit-content;
+  text-align: center;
+}
+.ghost-container > h2 {
+  margin: 10px;
+}
+
+.ghost-kitchens {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ghost-kitchens>* {
+  flex: 1 1 10em;
+}
+
+.ghost-kitchen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 5px;
+  width: 100%;
+}
+
+.ghost-kitchen:hover {
+  background-color: #91c949;
 }
