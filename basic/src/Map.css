@@ -49,8 +49,9 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 }
 
 .mapboxgl-popup-content {
-  font-size: 1.125rem;
+  font-size: 1rem;
   width: fit-content;
+  border-radius: 10px;
 }
 
 .mapboxgl-popup-content h3 {
@@ -76,6 +77,10 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
   margin: 10px 0;
 }
 
+.real-container > h2 {
+  font-size: 1.5rem;
+}
+
 .real-kitchen {
   margin-top: 10px;
   width: 100%;
@@ -92,6 +97,7 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 }
 .ghost-container > h2 {
   margin: 10px;
+  font-size: 1.5rem;
 }
 
 .ghost-kitchens {
