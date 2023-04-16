@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -55,4 +57,33 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
   padding: 0 10px;
 }
 
-.mapboxgl-popup-content { color: red}
+.mapboxgl-popup-content {
+  padding: 0;
+  width: 10em;
+  height: 6em;
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.mapboxgl-popup-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 15px 15px;
+  width: 90%;
+  border-radius: 5px;
+  font-weight: 700;
+  user-select: none;
+}
+
+.mapboxgl-popup-content h3:hover {
+  cursor: pointer;
+}
+
+.mapboxgl-popup-content-wrapper {
+  padding: 1%;
+}

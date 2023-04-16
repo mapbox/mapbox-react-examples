@@ -107,7 +107,10 @@ map.on('click', 'clusters', (e) => {
     const isReal = aFeatures.filter(kitchen => kitchen.properties.is_real === '1')
     const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
     const orderedArray = (isReal.length === 1 ? isReal.concat(isGhost) : [])
-    orderedArray.map(kitchen => popupString += `${kitchen.properties.name}<br>`)
+    orderedArray.map(kitchen => {
+      console.log(kitchen.properties.is_real, kitchen.properties.name)
+      popupString += `<h3 style="background-color:${kitchen.properties.is_real == 1 ? '#91c949' : 'red'}">${kitchen.properties.name}</h3>`
+    })
     orderedArray.length > 1 && new mapboxgl.Popup()
       .setLngLat(coordinates)
       .setHTML(popupString)
