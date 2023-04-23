@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import './Map.css';
 import geoJson from "./features.geojson"
-import SideBar from './SideBar';
 
 mapboxgl.accessToken =
 'pk.eyJ1IjoiY2FzdHRoZWNhbG1pbmdhcHBsZSIsImEiOiJjbGZzZzFxNGcwNWpnM3RwanQ2bjlubGgzIn0.0WiHmOMaGvSo5Ms2TNd4Qw';
@@ -10,7 +9,6 @@ mapboxgl.accessToken =
 
 const Map = () => {
   const mapContainerRef = useRef(null);
-  const [selected, setSelected] = useState([])
   
   // Initialize map when component mounts
   useEffect(() => {
@@ -98,7 +96,7 @@ map.on('click', 'clusters', (e) => {
     const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
     const orderedArray = (isReal.length === 1 ? isReal.concat(isGhost) : [])
     orderedArray.map(kitchen => {
-      setSelected(prev => [...prev, kitchen.properties.name])
+      console.log(kitchen.properties.is_real, kitchen.properties.name)
       if(kitchen.properties.is_real === '1'){
         popupReal += `
         <h3 class="real-kitchen" style="background-color:#91c949">${kitchen.properties.name}</h3>
@@ -151,12 +149,12 @@ map.on('click', 'unclustered-point', (e) => {
   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
   }
    
-  // new mapboxgl.Popup()
-  // .setLngLat(coordinates)
-  // .setHTML(
-  // `Name: ${name}`
-  // )
-  // .addTo(map);
+  new mapboxgl.Popup()
+  .setLngLat(coordinates)
+  .setHTML(
+  `Name: ${name}`
+  )
+  .addTo(map);
   });
 
   map.on('mouseenter', 'clusters', () => {
@@ -176,7 +174,6 @@ map.on('click', 'unclustered-point', (e) => {
 
   return (
     <>
-      <SideBar selected={selected}/>
       <div id="map" className='map-container' ref={mapContainerRef}></div>  
     </>
   );
