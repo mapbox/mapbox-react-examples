@@ -6,48 +6,6 @@
   padding: 0;
 }
 
-body {
-  color: #404040;
-  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  color: #404040;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #101010;
-}
-
-/* The page is split between map and sidebar - the sidebar gets 1/3, map
-gets 2/3 of the page. You can adjust this to your personal liking. */
-.sidebar {
-  position: absolute;
-  width: 33.3333%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  border-right: 1px solid rgba(0, 0, 0, 0.25);
-}
-
-.map {
-  position: absolute;
-  left: 33.3333%;
-  width: 66.6666%;
-  top: 0;
-  bottom: 0;
-}
-
-.heading {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  height: 60px;
-  line-height: 60px;
-}
-
 .mapboxgl-popup-content {
   font-size: 1rem;
   border-radius: 10px;
@@ -65,10 +23,6 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 
 .mapboxgl-popup-content h3:hover {
   cursor: pointer;
-}
-
-.mapboxgl-popup-content-wrapper {
-  padding: 1%;
 }
 
 .real-container {
@@ -102,7 +56,9 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 }
 
 .ghost-kitchen {
-  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ghost-kitchens>* {

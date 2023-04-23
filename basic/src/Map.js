@@ -15,7 +15,7 @@ const Map = () => {
     const map = new mapboxgl.Map({
       container: 'map',
       // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-      style: 'mapbox://styles/mapbox/dark-v10',
+      style: 'mapbox://styles/mapbox/light-v11',
       center: [-73.09800754761238, 40.853489556812974],
       zoom: 12,
       maxZoom: 17.5
@@ -63,19 +63,6 @@ const Map = () => {
         'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold']
         }
         });
-         
-        // map.addLayer({
-        // id: 'unclustered-point',
-        // type: 'circle',
-        // source: 'kitchens',
-        // filter: ['!', ['has', 'point_count']],
-        // paint: {
-        // 'circle-color': '#11b4da',
-        // 'circle-radius': 10,
-        // 'circle-stroke-width': 1,
-        // 'circle-stroke-color': '#fff'
-        // }
-        // });
         
 // inspect a cluster on click
 map.on('click', 'clusters', (e) => {
@@ -93,7 +80,7 @@ map.on('click', 'clusters', (e) => {
       map.easeTo({
         center: 
           features[0].geometry.coordinates,
-        zoom: zoom
+        zoom: zoom * 1.25
       });
     }
   );
@@ -104,7 +91,7 @@ map.on('click', 'clusters', (e) => {
   map.getSource('kitchens').getClusterLeaves(clusterId, point_count, 0, function (err, aFeatures) {
     let popupReal = "";
     let popupGhost = ""
-    var childrenCount = Object.keys(aFeatures).length
+    let childrenCount = Object.keys(aFeatures).length
     const isReal = aFeatures.filter(kitchen => kitchen.properties.is_real === '1')
     const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
     const orderedArray = (isReal.length === 1 ? isReal.concat(isGhost) : [])
@@ -145,21 +132,6 @@ map.on('click', 'clusters', (e) => {
       .setHTML(popupHtml)
       .addTo(map);
   })
-
-  // map.getSource('kitchens').getClusterLeaves(clusterId, point_count, 0)
-  //   .then(res => console.log(res))
-  //   const isReal = aFeatures.filter(kitchen => kitchen.properties.is_real === '1')
-  //   const isGhost = aFeatures.filter(kitchen => kitchen.properties.is_real === '0')
-  //   
-  //   orderedArray.map(property => property.properties.name))
-  // })
-
-  // console.log
-  
-  // new mapboxgl.Popup()
-  //   .setLngLat(features[0].geometry.coordinates)
-  //   .setHTML()
-  //   .addTo(map);
 })
 
 // When a click event occurs on a feature in
@@ -191,17 +163,17 @@ map.on('click', 'unclustered-point', (e) => {
   map.on('mouseleave', 'clusters', () => {
     map.getCanvas().style.cursor = '';
     });
-    map.on('mouseenter', 'unclustered-point', () => {
-      map.getCanvas().style.cursor = 'pointer';
-      });
-    map.on('mouseleave', 'unclustered-point', () => {
-      map.getCanvas().style.cursor = '';
-      });
+  map.on('mouseenter', 'unclustered-point', () => {
+    map.getCanvas().style.cursor = 'pointer';
+    });
+  map.on('mouseleave', 'unclustered-point', () => {
+    map.getCanvas().style.cursor = '';
+    });
   })
 })
 
   return (
-    <div id="map" className='map-container' ref={mapContainerRef}></div>
+      <div id="map" className='map-container' ref={mapContainerRef}></div>  
   );
 };
 
