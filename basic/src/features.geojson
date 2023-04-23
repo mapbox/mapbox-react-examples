@@ -1,0 +1,1225 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08982087,40.85873794 ]
+    },
+    "properties": {
+    "kitchen_id":2540535,
+    "is_real":"1",
+    "name":"7-Eleven",
+    "phone_number":"(631) 738-6832",
+    "street_address":"2209 Middle Country Rd",
+    "notes":2540535,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1537282308/wzhxnbyytakpquusxuie.jpg",
+    "distance":"1.4 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08982087,40.85873794 ]
+    },
+    "properties": {
+    "kitchen_id":2630427,
+    "is_real":"0",
+    "name":"Grubhub Goods",
+    "phone_number":"(855) 711-7669",
+    "street_address":"2209 Middle Country Rd",
+    "notes":2540535,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1614685317/idnr70xjtrk1z7sn93wz.png",
+    "distance":"1.4 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08092499,40.85918426 ]
+    },
+    "properties": {
+    "kitchen_id":1338427,
+    "is_real":"1",
+    "name":"Dickey's Barbecue Pit",
+    "phone_number":"(631) 807-8804",
+    "street_address":"13 Centereach Mall",
+    "notes":1338427,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1604203242/u1qpsfyly2thulxf5mek.png",
+    "distance":"1.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.08092499,40.85918426 ]
+    },
+    "properties": {
+    "kitchen_id":2466330,
+    "is_real":"0",
+    "name":"Food Express",
+    "phone_number":"(516) 238-3432",
+    "street_address":"13 Centereach Mall",
+    "notes":1338427,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1665413890/togeqpscsypd1t7koyr7.png",
+    "distance":"1.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10301209,40.88414764 ]
+    },
+    "properties": {
+    "kitchen_id":986101,
+    "is_real":"1",
+    "name":"Chili's",
+    "phone_number":"(631) 580-2842",
+    "street_address":"280 Pond Path",
+    "notes":986101,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1510584274/fxtdbzf999vmp2d4ua3n.jpg",
+    "distance":"2.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10301209,40.88414764 ]
+    },
+    "properties": {
+    "kitchen_id":1059740,
+    "is_real":"0",
+    "name":"It's Just Wings",
+    "phone_number":"(631) 580-2842",
+    "street_address":"280 Pond Path",
+    "notes":986101,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1594059746/dr67obcudjix1srrxn0k.png",
+    "distance":"2.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":999852,
+    "is_real":"0",
+    "name":"Wrapped Up Cafe",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1593711034/b6ryxi5zjujbjvcnah0y.png",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":1198582,
+    "is_real":"1",
+    "name":"Crazy Crepe Cafe - Ronkonkoma",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1557849717/xgkgs08xepsveulgjake.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10852051,40.835289 ]
+    },
+    "properties": {
+    "kitchen_id":2298792,
+    "is_real":"1",
+    "name":"MELTology Grilled Cheese",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":2298792,
+    "city":"Lake Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1596547148/z6wbilcfwuzmcjirny6j.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":2884167,
+    "is_real":"0",
+    "name":"Long Island Coffee Company",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1628272819/uxcyinrl0ylv4csxeto9.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":3094880,
+    "is_real":"0",
+    "name":"Better Bowls",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1639566014/ytixxy7zyu8eacxprc0z.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10852051,40.835289 ]
+    },
+    "properties": {
+    "kitchen_id":4315816,
+    "is_real":"0",
+    "name":"Waffle Shack",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":2298792,
+    "city":"Lake Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1659601257/iordm3v2boivfsvenhto.jpg",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":4437032,
+    "is_real":"0",
+    "name":"Crazy Bowls (Acai Bowls & More)",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1652718040/rmsybats7zxgz9vujxrz.png",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10920716,40.83528995366739 ]
+    },
+    "properties": {
+    "kitchen_id":5390120,
+    "is_real":"0",
+    "name":"American Crepe Company",
+    "phone_number":"(631) 648-4430",
+    "street_address":"721 Hawkins Ave",
+    "notes":1198582,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1539021091/vjgupqmvsvh70lzmgjed.png",
+    "distance":"2.6 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05426789,40.86333465 ]
+    },
+    "properties": {
+    "kitchen_id":687515,
+    "is_real":"1",
+    "name":"Clay oven",
+    "phone_number":"(631) 320-0386",
+    "street_address":"1245 Middle Country Rd",
+    "notes":1292085,
+    "city":"Lake Grove",
+    "state":"NY",
+    "zip_code":11755,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1517426421/ghw0kfztg7mzzlazd7uv.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05426789,40.86333465 ]
+    },
+    "properties": {
+    "kitchen_id":1292085,
+    "is_real":"0",
+    "name":"Shah's Halal Food",
+    "phone_number":"(631) 346-3366",
+    "street_address":"1245 Middle Country Rd",
+    "notes":1292085,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1606749528/ijxajvyjjd1elqyaxeu9.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2041219,
+    "is_real":"1",
+    "name":"Island Lake Diner",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1584979127/xs71w1so4szuy25cemep.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2114409,
+    "is_real":"0",
+    "name":"Salad Creations",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1594240864/hsmdnnvh8voqh5uf3raq.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2415437,
+    "is_real":"0",
+    "name":"Burger Heaven",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1613756247/aqjqenaly8rilhhlk9ci.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.15844727,40.85987854 ]
+    },
+    "properties": {
+    "kitchen_id":2560237,
+    "is_real":"1",
+    "name":"Toxic Wings",
+    "phone_number":"(631) 360-6600",
+    "street_address":"600 Middle Country Rd",
+    "notes":2560237,
+    "city":"Nesconset",
+    "state":"NY",
+    "zip_code":11768,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612194995/bz4kgbztulkhfm4iadyj.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2560449,
+    "is_real":"0",
+    "name":"Americana Burgers and Wings",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612179367/fnxioxoq2rj4myaaccsz.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2560861,
+    "is_real":"0",
+    "name":"Boom Boom Soups Salads & Sandwiches",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612194995/bz4kgbztulkhfm4iadyj.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":2773249,
+    "is_real":"0",
+    "name":"Cheezon",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1622132345/gcdxt8d0uvm5lrfca3t9.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":3203026,
+    "is_real":"0",
+    "name":"The Wicked Wings",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1646435627/lj0t2ml1wgjvraqp0raq.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.15844727,40.85987854 ]
+    },
+    "properties": {
+    "kitchen_id":3303512,
+    "is_real":"0",
+    "name":"Lorenzo’s pizza",
+    "phone_number":"(631) 360-6600",
+    "street_address":"600 Middle Country Rd",
+    "notes":2560237,
+    "city":"Nesconset",
+    "state":"NY",
+    "zip_code":11767,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1652275557/nb79beqg2u0ax6kcoas1.png",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.085637,40.831669 ]
+    },
+    "properties": {
+    "kitchen_id":3332771,
+    "is_real":"0",
+    "name":"Munchies To Your Door",
+    "phone_number":"(631) 676-5500",
+    "street_address":"625 Portion Rd",
+    "notes":2041219,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1655259246/keuix0x3jyjxgtiuc4sm.jpg",
+    "distance":"3.1 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":320739,
+    "is_real":"0",
+    "name":"Wild Wild Wings",
+    "phone_number":"(888) 729-4870",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1453224430/fkwsavjj5pm6ac7vsezz.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":1084704,
+    "is_real":"0",
+    "name":"Grilled Cheese Society",
+    "phone_number":"(888) 422-8951",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1548378942/fc1ojh7q6xrtd2syyqpi.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":1193976,
+    "is_real":"0",
+    "name":"Outlaw Burger",
+    "phone_number":"(888) 548-0599",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1609805144/npp3at7u5pmstkogyelq.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":1532469,
+    "is_real":"0",
+    "name":"Chicken Kitchen",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1581629662/xhqpth0fo3hxw8afwlzr.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2207891,
+    "is_real":"0",
+    "name":"Burger Bros",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1595285513/pcizrfonnwrelygiynw2.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2222420,
+    "is_real":"0",
+    "name":"CraveBurger",
+    "phone_number":"(888) 259-5475",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1592920469/qloi7g8vzeah3l6xknme.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2250612,
+    "is_real":"0",
+    "name":"Wrapped Up Cafe",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1593595241/c5fg2knyzx8vnnwoojrr.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2398054,
+    "is_real":"0",
+    "name":"The Big Melt",
+    "phone_number":"(888) 633-9509",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1602521194/dt4jytzrsspqxpmbhqen.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2415289,
+    "is_real":"1",
+    "name":"Crazy Crepe Cafe",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1617988495/olno0isas6e7ssc0lwov.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2415525,
+    "is_real":"0",
+    "name":"Wing Shack",
+    "phone_number":"(631) 320-0903",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1578518358/yvtyxurmtafhpx6eh3wz.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2560451,
+    "is_real":"0",
+    "name":"Crazy Bowls (Acai Bowls & More)",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612190926/sjimdjryhqsplzm9afyw.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2651471,
+    "is_real":"0",
+    "name":"Long Island Coffee Company",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1615825385/kkhitpxhvxspuad8lups.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2738640,
+    "is_real":"0",
+    "name":"American Crepe Company",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1620207556/okfyfulzqrmgxteu2nm6.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":2930682,
+    "is_real":"0",
+    "name":"Waffle Shack",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1624548016/zpg9cak1e1nesqyvv4bx.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":3173114,
+    "is_real":"1",
+    "name":"MELTology Grilled Cheese",
+    "phone_number":"(631) 312-7561",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1644603691/aenzu1pnqk2sagjftk4i.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":3269688,
+    "is_real":"0",
+    "name":"Firebelly Wings",
+    "phone_number":"(888) 284-6146",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1650048531/bui7aco792hktt5038cf.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":3323940,
+    "is_real":"0",
+    "name":"Better Bowls",
+    "phone_number":"(631) 451-2740",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1643742399/stpxadd9vztx0wkvid1c.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":4492248,
+    "is_real":"0",
+    "name":"Mighty Mac n Cheese",
+    "phone_number":"(631) 320-0903",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1667420080/k7fmw2oprbjq65muuh1q.png",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05068289,40.86292266 ]
+    },
+    "properties": {
+    "kitchen_id":4619168,
+    "is_real":"0",
+    "name":"HuevoRito",
+    "phone_number":"(844) 485-1466",
+    "street_address":"1070 Middle Country Rd",
+    "notes":2415289,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1639417893/uvpln33fpa9e8pwifs54.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":5506648,
+    "is_real":"0",
+    "name":"Veg-e-licious Burger",
+    "phone_number":"(888) 313-0284",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1657634225/cbncyrvhb4anfq6iqtyv.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05058289,40.86293029 ]
+    },
+    "properties": {
+    "kitchen_id":5506656,
+    "is_real":"0",
+    "name":"American Grilled Cheese Company",
+    "phone_number":"(631) 320-0903",
+    "street_address":"1070 Middle Country Rd",
+    "notes":3173114,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1612969260/u236slofq9fhh2nrso6r.jpg",
+    "distance":"3.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":1,
+    "is_real":"1",
+    "name":"IHOP",
+    "phone_number":"(833) 529-3286",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1672930027/nmzc3fo0rh0ok2l0necj.jpg",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":314874,
+    "is_real":"0",
+    "name":"TenderFix by Noah Schnapp",
+    "phone_number":"(888) 407-7961",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1610644884/ua1tx2jn6adqvbhiygtg.png",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":1229469,
+    "is_real":"0",
+    "name":"Super Mega Dilla",
+    "phone_number":"(888) 719-3595",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1610898369/im11bseluddf8xkpqp4a.jpg",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":2666736,
+    "is_real":"0",
+    "name":"Thrilled Cheese",
+    "phone_number":"(888) 671-3561",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1616526887/kickdrvmqcimopjgubgp.png",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09931946,40.82850646 ]
+    },
+    "properties": {
+    "kitchen_id":3368478,
+    "is_real":"0",
+    "name":"Pardon My Cheesesteak",
+    "phone_number":"(833) 529-3287",
+    "street_address":"339 Portion Rd",
+    "notes":1,
+    "city":"Ronkonkoma",
+    "state":"NY",
+    "zip_code":11779,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1672930027/nmzc3fo0rh0ok2l0necj.jpg",
+    "distance":"3.7 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04106141,40.86520004 ]
+    },
+    "properties": {
+    "kitchen_id":320648,
+    "is_real":"0",
+    "name":"Long Island Munchies",
+    "phone_number":"(631) 846-8898",
+    "street_address":"810 Middle Country Rd",
+    "notes":1719178,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1611772228/gzvxohbcwwpe769es9sk.png",
+    "distance":"3.8 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04106141,40.86520004 ]
+    },
+    "properties": {
+    "kitchen_id":1674326,
+    "is_real":"0",
+    "name":"Kim's Cafe",
+    "phone_number":"(631) 846-8898",
+    "street_address":"810 Middle Country Rd",
+    "notes":1719178,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1574870004/un8zbyvnajrk67741xfy.png",
+    "distance":"3.8 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04106141,40.86520004 ]
+    },
+    "properties": {
+    "kitchen_id":1719178,
+    "is_real":"1",
+    "name":"Joe's Campus Heroes",
+    "phone_number":"(631) 846-8898",
+    "street_address":"810 Middle Country Rd",
+    "notes":1719178,
+    "city":"Centereach",
+    "state":"NY",
+    "zip_code":11720,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1592936854/pn3guzbsfgkvumwpvude.png",
+    "distance":"3.8 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10980225,40.80856323 ]
+    },
+    "properties": {
+    "kitchen_id":1018378,
+    "is_real":"1",
+    "name":"Carlo's Gourmet Italian Ices",
+    "phone_number":"(631) 404-7021",
+    "street_address":"27 Railroad Ave",
+    "notes":1018378,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1541972966/hzuy47f7rlzhoh9yzqts.png",
+    "distance":"3.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.10980225,40.80856323 ]
+    },
+    "properties": {
+    "kitchen_id":3123716,
+    "is_real":"0",
+    "name":"Slices & Ices",
+    "phone_number":"(631) 285-2920",
+    "street_address":"27 Railroad Ave",
+    "notes":1018378,
+    "city":"Selden",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1641547402/n08mctzwzwi8s5yhmhmz.png",
+    "distance":"3.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05597687,40.81829452 ]
+    },
+    "properties": {
+    "kitchen_id":276827,
+    "is_real":"0",
+    "name":"Buddy V's Cake Slice",
+    "phone_number":"(888) 801-0253",
+    "street_address":"45 Middle Ave",
+    "notes":3224528,
+    "city":"Lake Grove",
+    "state":"NY",
+    "zip_code":11755,
+    "logo":"https://res.cloudinary.com/grubhub/image/upload/v1452379381/pks1mzlhwddmi7yxyedz.jpg",
+    "distance":"5.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05597687,40.81829452 ]
+    },
+    "properties": {
+    "kitchen_id":3224528,
+    "is_real":"1",
+    "name":"On The Border",
+    "phone_number":"(631) 317-2657",
+    "street_address":"45 Middle Ave",
+    "notes":3224528,
+    "city":"Lake Grove",
+    "state":"NY",
+    "zip_code":11755,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1648827140/zquicj3sklfzjfpwpxzv.png",
+    "distance":"5.9 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.07411194,40.80815505 ]
+    },
+    "properties": {
+    "kitchen_id":2650178,
+    "is_real":"0",
+    "name":"Bhorpet Foods",
+    "phone_number":"(631) 615-6705",
+    "street_address":"975 Main St",
+    "notes":null,
+    "city":"Holbrook",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1616523013/vamkocitccbf4yllwivs.png",
+    "distance":"7.3 mi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.07411194,40.80815505 ]
+    },
+    "properties": {
+    "kitchen_id":5276080,
+    "is_real":"1",
+    "name":"Shah's Halal Food - Holbrook",
+    "phone_number":"(631) 285-2821",
+    "street_address":"975 Main St",
+    "notes":null,
+    "city":"Holbrook",
+    "state":"NY",
+    "zip_code":11784,
+    "logo":"https://media-cdn.grubhub.com/image/upload/v1594323914/ov3fv2jkdnasoekldsni.png",
+    "distance":"7.3 mi"
+    }
+  }
+]
+}

@@ -2,13 +2,14 @@
   "name": "basic",
   "version": "0.1.0",
   "dependencies": {
-    "mapbox-gl": "^1.11.1",
+    "bootstrap": "^5.3.0-alpha3",
+    "mapbox-gl": "^1.13.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build"
   },
   "browserslist": {

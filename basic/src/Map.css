@@ -1,20 +1,126 @@
-.map-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.sidebarStyle {
-  display: inline-block;
+body {
+  color: #404040;
+  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #101010;
+}
+
+/* The page is split between map and sidebar - the sidebar gets 1/3, map
+gets 2/3 of the page. You can adjust this to your personal liking. */
+Sidebar {
   position: absolute;
+  width: 33.3333%;
+  height: 100%;
   top: 0;
   left: 0;
-  margin: 12px;
-  background-color: #404040;
-  color: #ffffff;
-  z-index: 1 !important;
-  padding: 6px;
-  font-weight: bold;
+  overflow: hidden;
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#map {
+  position: absolute;
+  left: 33.3333%;
+  width: 66.6666%;
+  top: 0;
+  bottom: 0;
+}
+
+.heading {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  height: 60px;
+  line-height: 60px;
+}
+
+.mapboxgl-popup-content {
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.mapboxgl-popup-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+  padding: 5px;
+  transition-property: transform, box-shadow;
+  transition-duration: .2s;
+}
+
+.mapboxgl-popup-content h3:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+.mapboxgl-popup-content h3:active {
+  cursor: pointer;
+  transform: scale(.95);
+  box-shadow: 0 3px 14px -2px;
+}
+
+.mapboxgl-popup-content-wrapper {
+  padding: 1%;
+}
+
+.real-container {
+  height: fit-content;
+  text-align: center;
+}
+
+.real-kitchens {
+  margin: 0;
+}
+
+.real-kitchen {
+  width: 100%;
+}
+
+.real-kitchen:hover {
+  background-color: 'red';
+}
+
+.ghost-container {
+  margin-top: 5px;
+  padding: 0;
+}
+
+.ghost-kitchens {
+  font-size: .75rem;
+  font-family: 'Montserrat';
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.ghost-kitchen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+}
+
+.ghost-kitchens>* {
+  flex: 1 1 10em;
+}
+.ghost-kitchen:hover {
+  background-color: #91c949;
 }

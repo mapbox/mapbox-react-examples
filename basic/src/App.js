@@ -3,9 +3,7 @@ import Map from './Map';
 
 function App() {
   return (
-    <div>
-      <Map />
-    </div>
+    <Map />
   );
 }
 
