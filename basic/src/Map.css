@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -50,17 +50,17 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 
 .mapboxgl-popup-content {
   font-size: 1rem;
-  width: fit-content;
   border-radius: 10px;
 }
 
 .mapboxgl-popup-content h3 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   border-radius: 10px;
   text-align: center;
   color: #fff;
   user-select: none;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .mapboxgl-popup-content h3:hover {
@@ -74,15 +74,13 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 .real-container {
   height: fit-content;
   text-align: center;
-  margin: 10px 0;
 }
 
-.real-container > h2 {
-  font-size: 1.5rem;
+.real-kitchens {
+  margin: 0;
 }
 
 .real-kitchen {
-  margin-top: 10px;
   width: 100%;
 }
 
@@ -91,33 +89,25 @@ gets 2/3 of the page. You can adjust this to your personal liking. */
 }
 
 .ghost-container {
+  margin-top: 5px;
   padding: 0;
-  height: fit-content;
-  text-align: center;
-}
-.ghost-container > h2 {
-  margin: 10px;
-  font-size: 1.5rem;
 }
 
 .ghost-kitchens {
+  font-size: .75rem;
+  font-family: 'Montserrat';
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
+}
+
+.ghost-kitchen {
+  margin: 2px;
 }
 
 .ghost-kitchens>* {
   flex: 1 1 10em;
 }
-
-.ghost-kitchen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3px;
-  padding: 5px;
-  width: 100%;
-}
-
 .ghost-kitchen:hover {
   background-color: #91c949;
 }

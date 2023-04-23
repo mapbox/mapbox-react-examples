@@ -124,7 +124,6 @@ map.on('click', 'clusters', (e) => {
 
     let popupGhostContainer = `
       <div class="ghost-container">
-        <h2>Ghost</h2>
         <div class="ghost-kitchens">
           ${popupGhost}
         </div>
@@ -132,7 +131,6 @@ map.on('click', 'clusters', (e) => {
       `
     let popupRealContainer = `
       <div class="real-container">
-        <h2>Real</h2>
         <div class="real-kitchens">
           ${popupReal}
         </div>
