@@ -15,4 +15,10 @@ Initialize a map with coordinates set by React, update the state of coordinates 
 
     open http://localhost:3000/
 
+### Access token
+
+    Replace the [API key](https://docs.mapbox.com/help/getting-started/access-tokens/) in `src/Map.js`.
+
+    mapboxgl.accessToken = // YOUR_API_KEY_HERE
+
 Runs the app from http://localhost:3000
