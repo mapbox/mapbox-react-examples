@@ -4,30 +4,15 @@ import Legend from './components/Legend';
 import Optionsfield from './components/Optionsfield';
 import './Map.css';
 import { setActiveOption } from './redux/action-creators';
-import { connect } from 'react-redux';
-
-const ConnectedLegend = connect(mapStateToPropsLegend)(Legend);
-const ConnectedOptionsfield = connect(mapStateToPropsOptionsfield)(
-  Optionsfield
-);
-
-function mapStateToPropsLegend(state) {
-  return {
-    active: state.active
-  };
-}
-
-function mapStateToPropsOptionsfield(state) {
-  return {
-    options: state.options,
-    active: state.active
-  };
-}
+import { useSelector } from 'react-redux';
+import { activeSelector, dataSelector } from './redux/selectors';
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
 
-const Map = props => {
+const Map = () => {
+  const active = useSelector(activeSelector);
+  const data = useSelector(dataSelector);
   const mapContainerRef = useRef(null);
   const [map, setMap] = useState(null);
 
@@ -37,13 +22,13 @@ const Map = props => {
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [5, 34],
-      zoom: 1.5
+      zoom: 1.5,
     });
 
     map.on('load', () => {
       map.addSource('countries', {
         type: 'geojson',
-        data: props.data
+        data: data,
       });
 
       map.setLayoutProperty('country-label', 'text-field', [
@@ -57,23 +42,23 @@ const Map = props => {
           'font-scale': 0.8,
           'text-font': [
             'literal',
-            ['DIN Offc Pro Italic', 'Arial Unicode MS Regular']
-          ]
-        }
+            ['DIN Offc Pro Italic', 'Arial Unicode MS Regular'],
+          ],
+        },
       ]);
 
       map.addLayer(
         {
           id: 'countries',
           type: 'fill',
-          source: 'countries'
+          source: 'countries',
         },
         'country-label'
       );
 
       map.setPaintProperty('countries', 'fill-color', {
-        property: props.active.property,
-        stops: props.active.stops
+        property: active.property,
+        stops: active.stops,
       });
 
       setMap(map);
@@ -85,22 +70,22 @@ const Map = props => {
 
   useEffect(() => {
     paint();
-  }, [props.active]);
+  }, [active]);
 
   const paint = () => {
     if (map) {
       map.setPaintProperty('countries', 'fill-color', {
-        property: props.active.property,
-        stops: props.active.stops
+        property: active.property,
+        stops: active.stops,
       });
     }
   };
 
   return (
     <div>
-      <div ref={mapContainerRef} className='map-container' />
-      <ConnectedLegend />
-      <ConnectedOptionsfield changeState={setActiveOption} />
+      <div ref={mapContainerRef} className="map-container" />
+      <Legend />
+      <Optionsfield changeState={setActiveOption} />
     </div>
   );
 };

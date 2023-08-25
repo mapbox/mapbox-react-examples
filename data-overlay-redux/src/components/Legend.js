@@ -1,6 +1,9 @@
-import React from "react";
+import React from 'react';
+import { useSelector } from 'react-redux';
+import { activeSelector } from '../redux/selectors';
 
-const Legend = (props) => {
+const Legend = () => {
+  const active = useSelector(activeSelector);
   const renderLegendKeys = (stop, i) => {
     return (
       <div key={i} className="txt-s">
@@ -17,10 +20,10 @@ const Legend = (props) => {
     <>
       <div className="bg-white absolute bottom right mr12 mb24 py12 px12 shadow-darken10 round z1 wmax180">
         <div className="mb6">
-          <h2 className="txt-bold txt-s block">{props.active.name}</h2>
-          <p className="txt-s color-gray">{props.active.description}</p>
+          <h2 className="txt-bold txt-s block">{active.name}</h2>
+          <p className="txt-s color-gray">{active.description}</p>
         </div>
-        {props.active.stops.map(renderLegendKeys)}
+        {active.stops.map(renderLegendKeys)}
       </div>
     </>
   );
