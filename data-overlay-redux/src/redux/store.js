@@ -1,6 +1,6 @@
-import { createStore } from 'redux'
-import { reducer } from './reducer'
+import { configureStore } from '@reduxjs/toolkit';
+import mapOptionReducer from './reducer';
 
-const store = createStore(reducer);
-
-export { store };
+export const store = configureStore({
+  reducer: { mapOption: mapOptionReducer },
+});
