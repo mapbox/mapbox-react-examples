@@ -1,9 +1,6 @@
-import { store } from './store'
-import * as Constants from '../constants'
+import { store } from './store';
+import { setActiveOptionAction } from './reducer';
 
 export function setActiveOption(option) {
-  store.dispatch({
-    type: Constants.SET_ACTIVE_OPTION,
-    option
-  });
+  store.dispatch(setActiveOptionAction(option));
 }
