@@ -2,6 +2,8 @@
 
 Initialize a map with a set of default markers based on geoJson data.
 
+![Demo gif](https://im.ezgif.com/tmp/ezgif-1-6af9ff2afd.gif)
+
 ### Run it
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
