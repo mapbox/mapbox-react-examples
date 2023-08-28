@@ -1,6 +1,8 @@
-## Symbol Markers example
+## Markers Symbol example
 
 Initialize a map with symbol markers based on geoJson data.
+
+![Demo gif](https://im.ezgif.com/tmp/ezgif-1-cfdab70cad.gif)
 
 ### Run it
 
@@ -11,5 +13,11 @@ Initialize a map with symbol markers based on geoJson data.
     npm start
 
     open http://localhost:3000/
+
+### Access token
+
+    mapboxgl.accessToken = // YOUR_API_KEY_HERE
+
+Replace the [API key](https://docs.mapbox.com/help/getting-started/access-tokens/) in `src/Map.js`.
 
 Runs the app from http://localhost:3000
