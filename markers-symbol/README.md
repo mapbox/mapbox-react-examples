@@ -2,7 +2,7 @@
 
 Initialize a map with symbol markers based on geoJson data.
 
-![Demo gif](https://im.ezgif.com/tmp/ezgif-1-cfdab70cad.gif)
+![Demo gif](https://i.imgur.com/S0KcRen.gif)
 
 ### Run it
 
