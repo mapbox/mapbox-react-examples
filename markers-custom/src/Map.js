@@ -1,11 +1,11 @@
-import mapboxgl from "mapbox-gl";
-import React, { useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
-import geoJson from "./chicago-parks.json";
-import "./Map.css";
+import mapboxgl from 'mapbox-gl';
+import React, { useEffect, useRef } from 'react';
+import { createRoot } from 'react-dom/client';
+import geoJson from './chicago-parks.json';
+import './Map.css';
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA";
+  'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
 
 const Marker = ({ onClick, children, feature }) => {
   const _onClick = () => {
@@ -26,7 +26,7 @@ const Map = () => {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/streets-v11",
+      style: 'mapbox://styles/mapbox/streets-v11',
       center: [-87.65, 41.84],
       zoom: 10,
     });
@@ -36,11 +36,10 @@ const Map = () => {
       // Create a React ref
       const ref = React.createRef();
       // Create a new DOM node and save it to the React ref
-      ref.current = document.createElement("div");
+      ref.current = document.createElement('div');
       // Render a Marker Component on our new DOM node
-      ReactDOM.render(
-        <Marker onClick={markerClicked} feature={feature} />,
-        ref.current
+      createRoot(ref.current).render(
+        <Marker onClick={markerClicked} feature={feature} />
       );
 
       // Create a Mapbox Marker at our new DOM node
@@ -50,7 +49,7 @@ const Map = () => {
     });
 
     // Add navigation control (the +/- zoom buttons)
-    map.addControl(new mapboxgl.NavigationControl(), "top-right");
+    map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
     // Clean up on unmount
     return () => map.remove();
