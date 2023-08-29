@@ -1,9 +1,8 @@
 ## Custom Markers example
 
-Initialize a map with custom map markers based on geoJson data which display an alert detail when
-clicked.
+Initialize a map with custom map markers based on geoJson data which displays an alert detail when clicked.
 
-![Demo gif](https://i.imgur.com/IGJuTuM.gif)
+![Demo gif](https://ezgif.com/video-to-gif/ezgif-4-4b8968609fcb.mp4)
 
 ### Run it
 
@@ -14,5 +13,11 @@ clicked.
     npm start
 
     open http://localhost:3000/
+
+### Access token
+
+    mapboxgl.accessToken = // YOUR_API_KEY_HERE
+
+Replace the [API key](https://docs.mapbox.com/help/getting-started/access-tokens/) in `src/Map.js`.
 
 Runs the app from http://localhost:3000
