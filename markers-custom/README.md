@@ -2,7 +2,7 @@
 
 Initialize a map with custom map markers based on geoJson data which displays an alert detail when clicked.
 
-![Demo gif](https://i.imgur.com/bD0IIhZ.gif)
+![Demo gif](https://i.ibb.co/s3ssWBS/ezgif-com-video-to-gif.gif)
 
 ### Run it
 
