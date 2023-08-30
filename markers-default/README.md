@@ -2,7 +2,7 @@
 
 Initialize a map with a set of default markers based on geoJson data.
 
-![Demo gif](https://im.ezgif.com/tmp/ezgif-1-6af9ff2afd.gif)
+![Demo gif](https://i.imgur.com/TrN19RV.gif)
 
 ### Run it
 
