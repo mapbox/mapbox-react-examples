@@ -13,6 +13,10 @@ Hi, and thanks in advance for contributing to Mapbox React Examples. Here's how 
 2. Write code, open a PR from your branch when you're ready.
 3. Notify our maintainer about your PR on [Discord](https://discord.gg/uMpcC5RmJh).
 
+## Access Token
+
+Make sure to not commit a working [Access Token](https://account.mapbox.com/access-tokens/) to avoid your key being stolen and causing unwanted charges. If you accidentally committed one, please "refresh" your token on the [Mapbox Access Token panel](https://account.mapbox.com/access-tokens/).
+
 ## How can I contribute?
 
 There are many ways in which you can contribute to Mapbox React Examples.
