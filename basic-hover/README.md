@@ -1,8 +1,8 @@
 ## Basic Hover example
 
-Initialize a map with coordinates set by React, update the state of coordinates on map movement, and display that data in an element provided by the render function.
+Initialize a map with coordinates set by React, update the state of coordinates on map movement, and display that data in an element provided by the render function. Every country can be hovered and clicked.
 
-![Demo gif](https://i.imgur.com/IGJuTuM.gif)
+![Demo gif](https://i.imgur.com/yZZ1nlI.gif)
 
 ### Run it
 
