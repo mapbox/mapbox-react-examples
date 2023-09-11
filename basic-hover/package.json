@@ -1,5 +1,5 @@
 {
-  "name": "basic",
+  "name": "basic-hover",
   "version": "0.1.0",
   "dependencies": {
     "mapbox-gl": "^2.15.0",
