@@ -44,6 +44,7 @@ const Map = () => {
     },
   ];
   const mapContainerRef = useRef(null);
+  const activeRef = useRef(options[0]);
   const [active, setActive] = useState(options[0]);
   const [map, setMap] = useState(null);
 
@@ -80,16 +81,77 @@ const Map = () => {
 
       map.addLayer(
         {
-          id: 'countries',
+          id: 'country-fills',
           type: 'fill',
           source: 'countries',
         },
         'country-label'
       );
 
-      map.setPaintProperty('countries', 'fill-color', {
+      map.setPaintProperty('country-fills', 'fill-color', {
         property: active.property,
         stops: active.stops,
+      });
+
+      // Add country borders
+      map.addLayer({
+        id: 'country-borders',
+        type: 'line',
+        source: 'countries',
+        layout: {},
+        paint: {
+          'line-color': '#627BC1',
+          'line-width': 2,
+        },
+      });
+
+      // Add country hover layer
+      map.addLayer({
+        id: 'country-fills-hover',
+        type: 'fill',
+        source: 'countries',
+        layout: {},
+        paint: {
+          'fill-color': '#000000',
+          'fill-opacity': 0.3,
+        },
+        filter: ['==', 'name', ''],
+      });
+
+      // Add country hover effect
+      map.on('mousemove', (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ['country-fills'],
+        });
+
+        if (features.length) {
+          map.getCanvas().style.cursor = 'pointer';
+          map.setFilter('country-fills-hover', [
+            '==',
+            'name',
+            features[0].properties.name,
+          ]);
+        } else {
+          map.setFilter('country-fills-hover', ['==', 'name', '']);
+          map.getCanvas().style.cursor = '';
+        }
+      });
+
+      // Add country un-hover effect
+      map.on('mouseout', () => {
+        map.getCanvas().style.cursor = 'auto';
+        map.setFilter('country-fills-hover', ['==', 'name', '']);
+      });
+
+      // Add country onclick effect
+      map.on('click', (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ['country-fills'],
+        });
+        if (!features.length) return;
+        const { properties } = features[0];
+        const { property, description } = activeRef.current;
+        alert(`(${properties.name}) ${properties[property]} ${description}`);
       });
 
       setMap(map);
@@ -105,16 +167,17 @@ const Map = () => {
 
   const paint = () => {
     if (map) {
-      map.setPaintProperty('countries', 'fill-color', {
+      map.setPaintProperty('country-fills', 'fill-color', {
         property: active.property,
         stops: active.stops,
       });
+      activeRef.current = active;
     }
   };
 
   const changeState = (i) => {
     setActive(options[i]);
-    map.setPaintProperty('countries', 'fill-color', {
+    map.setPaintProperty('country-fills', 'fill-color', {
       property: active.property,
       stops: active.stops,
     });
